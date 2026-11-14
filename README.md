@@ -3,7 +3,7 @@
 FMEA 作成支援 RAG を題材に、「どのデータに、どの Advanced RAG の打ち手が、どれだけ効くか」を、WSL2 上の OpenSearch で段階的に実測したケーススタディです。
 
 - 実践編 Web スライド（76 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/
-- 前提編「Advanced RAG 実践ガイド」Web スライド（96 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/guide/
+- 前提編「Advanced RAG 実践ガイド」Web スライド（118 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/guide/
 - Docswell: [実践編](https://www.docswell.com/s/takenori_kusaka/59NPMW-advanced-rag-fmea-casestudy) / [前提編](https://www.docswell.com/s/takenori_kusaka/ZPR1GG-advanced-rag-practical-guide)
 - スライド（PDF / PPTX）: [`slides/`](slides/)
 

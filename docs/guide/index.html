@@ -1,8 +1,8 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Advanced RAG 実践ガイド ― Naive RAG の次へ</title>
-  <meta name="description" content="Advanced RAG を「失敗原因 → 対策」の対応で整理し、評価・安全・運用・テックリーダーの実務までをまとめた解説スライド">
+  <meta name="description" content="Advanced RAG を「失敗原因 → 対策」の対応で整理し、評価・安全・運用・テックリーダーの実務、アンチパターン大全までをまとめた解説スライド">
   <meta property="og:title" content="Advanced RAG 実践ガイド ― Naive RAG の次へ">
-  <meta property="og:description" content="Advanced RAG を「失敗原因 → 対策」の対応で整理し、評価・安全・運用・テックリーダーの実務までをまとめた解説スライド">
+  <meta property="og:description" content="Advanced RAG を「失敗原因 → 対策」の対応で整理し、評価・安全・運用・テックリーダーの実務、アンチパターン大全までをまとめた解説スライド">
   <meta property="og:image" content="slides/s001.webp">
   <style>
   :root{--bg:#f4f7f8;--fg:#1a2230;--muted:#5b6872;--card:#fff;--acc:#0e7c86}
@@ -22,8 +22,8 @@
   </style></head><body>
   <div class="bar"><button id="mode">プレゼン表示</button><button id="prev" aria-label="前のスライド">←</button><button id="next" aria-label="次のスライド">→</button><span id="pos"></span></div>
   <header><h1>Advanced RAG 実践ガイド ― Naive RAG の次へ</h1>
-  <p>Naive RAG を理解し始めた技術者が、Advanced RAG の導入プロジェクトをリードできる水準まで理解を引き上げるための解説資料です。失敗原因から手法を選ぶ考え方、評価、安全・運用、テックリーダーの実務までを扱います（全 96 枚）。<a href="https://github.com/Takenori-Kusaka/advanced-rag-fmea-casestudy">GitHub リポジトリ</a>／<a href="https://github.com/Takenori-Kusaka/advanced-rag-fmea-casestudy/raw/main/slides/AdvancedRAG_実践ガイド.pdf">PDF</a>／<a href="https://github.com/Takenori-Kusaka/advanced-rag-fmea-casestudy/raw/main/slides/AdvancedRAG_実践ガイド.pptx">PPTX</a>／<a href="../">実践編：FMEA 作成支援ケーススタディ</a></p>
-  <details><summary>目次</summary><ol><li><a href="#s1">1. ADVANCED RAG</a></li><li><a href="#s2">2. この資料のゴールと読み方</a></li><li><a href="#s3">3. 全体の構成</a></li><li><a href="#s4">4. 結論を先に：Advanced RAG で押さえるべき5点</a></li><li><a href="#s5">5. 中心原則：手法のランキングではなく「失敗原因 → 対策」の対応</a></li><li><a href="#s6">6. PART 0</a></li><li><a href="#s7">7. RAG とは何か：なぜ LLM に検索を足すのか</a></li><li><a href="#s8">8. Naive RAG の基本パイプライン</a></li><li><a href="#s9">9. 埋め込み（Embedding）とベクトル類似度</a></li><li><a href="#s10">10. 近似最近傍探索（ANN）とベクトル DB の勘所</a></li><li><a href="#s11">11. BM25（語彙検索）：古いが強いベースライン</a></li><li><a href="#s12">12. Naive RAG はどこで壊れるか：7つの失敗点</a></li><li><a href="#s13">13. 「精度が悪い」を分解する：3つの根本原因</a></li><li><a href="#s14">14. PART 1</a></li><li><a href="#s15">15. Advanced RAG の定義：段階ごとの改善手法群</a></li><li><a href="#s16">16. 参照処理フロー①：取り込み側</a></li><li><a href="#s17">17. 参照処理フロー②：質問側</a></li><li><a href="#s18">18. 診断表：症状 → 疑う箇所 → 優先的に試す手段</a></li><li><a href="#s19">19. エビデンスの種類：出所で読み方を変える</a></li><li><a href="#s20">20. 数字を比較する際の5原則</a></li><li><a href="#s21">21. 指標の基礎①：検索の指標を手で計算してみる</a></li><li><a href="#s22">22. 指標の基礎②：回答・引用の指標</a></li><li><a href="#s23">23. PART 2</a></li><li><a href="#s24">24. 2-A 取込：構造を残すことが高度化の出発点</a></li><li><a href="#s25">25. 2-A 共通メタデータ：原文に戻れる設計にする</a></li><li><a href="#s26">26. 2-A チャンクサイズに普遍的な正解はない</a></li><li><a href="#s27">27. 2-A 親子検索：検索の粒度と読解の粒度を分ける</a></li><li><a href="#s28">28. 2-A Contextual Retrieval：チャンクに文脈説明を前置する</a></li><li><a href="#s29">29. 2-A Contextual Retrieval の効果をどう読むか</a></li><li><a href="#s30">30. 2-A Late Chunking：先に文脈化し、後で分割する</a></li><li><a href="#s31">31. 2-A 3つの文脈補完手法の比較と採用判断</a></li><li><a href="#s32">32. 2-B なぜハイブリッド検索が基本になるのか</a></li><li><a href="#s33">33. 2-B RRF（Reciprocal Rank Fusion）を手で計算する</a></li><li><a href="#s34">34. 2-B 埋め込みモデルの選定：BGE-M3 と日本語の現実</a></li><li><a href="#s35">35. 2-B バイエンコーダ・クロスエンコーダ・Late Interaction</a></li><li><a href="#s36">36. 2-B Late Interaction の代償：索引容量</a></li><li><a href="#s37">37. 2-B 再ランキングは「足せば必ず効く」部品ではない</a></li><li><a href="#s38">38. 2-B 検索段の設計：2段構えのファネル</a></li><li><a href="#s39">39. 2-C HyDE：質問を「仮想的な回答文書」に写像する</a></li><li><a href="#s40">40. 2-C 質問分解と推論による検索拡張</a></li><li><a href="#s41">41. 2-C クエリ系の実装原則と採用判断</a></li><li><a href="#s42">42. 2-D RAPTOR：抽象度をまたいで検索する</a></li><li><a href="#s43">43. 2-D 「GraphRAG」は単一の手法ではない</a></li><li><a href="#s44">44. 2-D Microsoft GraphRAG Global Search の仕組み</a></li><li><a href="#s45">45. 2-D HippoRAG 2：得るものと払うもの</a></li><li><a href="#s46">46. 2-D 2026年の比較研究が示すことと採用判断</a></li><li><a href="#s47">47. 2-E Self-RAG・CRAG・Agentic RAG を区別する</a></li><li><a href="#s48">48. 2-E 企業内で CRAG 型を使うときの分岐設計</a></li><li><a href="#s49">49. 2-E A-RAG：検索ツールの粒度をモデルに公開する</a></li><li><a href="#s50">50. 2-E 停止は検索そのものと同じくらい重要</a></li><li><a href="#s51">51. 2-E Agentic RAG の制御項目</a></li><li><a href="#s52">52. 2-E ルーティング：全質問を Agentic にしない</a></li><li><a href="#s53">53. 2-F RAFT：検索文脈の「使い方」を学習する</a></li><li><a href="#s54">54. 2-F Search-R1：検索の方策を強化学習する</a></li><li><a href="#s55">55. 2-G 視覚文書検索：OCR 中心とページ画像中心</a></li><li><a href="#s56">56. 2-G 表と数値：検索と計算を分離する</a></li><li><a href="#s57">57. 2-H 長文コンテキスト：「RAG か長文か」ではなく組み合わせ</a></li><li><a href="#s58">58. 2-H コンテキスト圧縮は根拠を改変するリスクも持つ</a></li><li><a href="#s59">59. 定量エビデンス台帳①：検索・前処理系</a></li><li><a href="#s60">60. 定量エビデンス台帳②：グラフ・Agent・学習・引用</a></li><li><a href="#s61">61. PART 3</a></li><li><a href="#s62">62. 自動評価は人手評価の「代用品」ではなく「増幅器」</a></li><li><a href="#s63">63. 層別の評価設計：失敗を分離できる指標を置く</a></li><li><a href="#s64">64. 比較実験の手順：Oracle から段階的に積み上げる</a></li><li><a href="#s65">65. 評価セットの作り方：カテゴリで分けて劣化を見逃さない</a></li><li><a href="#s66">66. 比較を統計的に正しく行う</a></li><li><a href="#s67">67. 2026年の評価動向：E2E・途中ホップ・大規模へ</a></li><li><a href="#s68">68. PART 4</a></li><li><a href="#s69">69. 検索結果は「信頼境界の外側」から来るデータである</a></li><li><a href="#s70">70. 運用要件①：5つの設計原則</a></li><li><a href="#s71">71. 運用要件②：ACL を検索境界に組み込む</a></li><li><a href="#s72">72. 運用要件③：鮮度と削除の伝播</a></li><li><a href="#s73">73. コストは検索・生成だけでなく「再構築」を含める</a></li><li><a href="#s74">74. PART 5</a></li><li><a href="#s75">75. 参照アーキテクチャ：9つのコンポーネント</a></li><li><a href="#s76">76. 制御ループの疑似コード（TypeScript 風）</a></li><li><a href="#s77">77. 実装上の4つの重要な区別</a></li><li><a href="#s78">78. 技術採用レーダー：全体像</a></li><li><a href="#s79">79. 採用レーダー詳細①：Adopt</a></li><li><a href="#s80">80. 採用レーダー詳細②：Trial・Assess・Hold</a></li><li><a href="#s81">81. 導入ロードマップ：ゲート条件で次に進む</a></li><li><a href="#s82">82. 用途別の初期方針</a></li><li><a href="#s83">83. PART 6</a></li><li><a href="#s84">84. テックリーダーの責務マップ</a></li><li><a href="#s85">85. 最初の 90 日プラン（目安）</a></li><li><a href="#s86">86. 意思決定の型：仮説 → 最小変更 → 層別測定 → 記録</a></li><li><a href="#s87">87. ステークホルダーとの対話：「精度は何%？」にどう答えるか</a></li><li><a href="#s88">88. 体制と役割：誰が何に責任を持つか</a></li><li><a href="#s89">89. 論文・ベンダー資料を読むときのチェックリスト</a></li><li><a href="#s90">90. アンチパターン集：よくある失敗と処方箋</a></li><li><a href="#s91">91. 未解決点と証拠の限界</a></li><li><a href="#s92">92. 総括</a></li><li><a href="#s93">93. 付録：用語集①</a></li><li><a href="#s94">94. 付録：用語集②</a></li><li><a href="#s95">95. 付録：主要出典①</a></li><li><a href="#s96">96. 付録：主要出典②</a></li></ol></details></header>
+  <p>Naive RAG を理解し始めた技術者が、Advanced RAG の導入プロジェクトをリードできる水準まで理解を引き上げるための解説資料です。失敗原因から手法を選ぶ考え方、評価、安全・運用、テックリーダーの実務、アンチパターンと全社横断 RAG の事例までを扱います（全 118 枚）。<a href="https://github.com/Takenori-Kusaka/advanced-rag-fmea-casestudy">GitHub リポジトリ</a>／<a href="https://github.com/Takenori-Kusaka/advanced-rag-fmea-casestudy/raw/main/slides/AdvancedRAG_実践ガイド.pdf">PDF</a>／<a href="https://github.com/Takenori-Kusaka/advanced-rag-fmea-casestudy/raw/main/slides/AdvancedRAG_実践ガイド.pptx">PPTX</a>／<a href="../">実践編：FMEA 作成支援ケーススタディ</a></p>
+  <details><summary>目次</summary><ol><li><a href="#s1">1. ADVANCED RAG</a></li><li><a href="#s2">2. この資料のゴールと読み方</a></li><li><a href="#s3">3. 全体の構成</a></li><li><a href="#s4">4. 結論を先に：Advanced RAG で押さえるべき5点</a></li><li><a href="#s5">5. 中心原則：手法のランキングではなく「失敗原因 → 対策」の対応</a></li><li><a href="#s6">6. PART 0</a></li><li><a href="#s7">7. RAG とは何か：なぜ LLM に検索を足すのか</a></li><li><a href="#s8">8. Naive RAG の基本パイプライン</a></li><li><a href="#s9">9. 埋め込み（Embedding）とベクトル類似度</a></li><li><a href="#s10">10. 近似最近傍探索（ANN）とベクトル DB の勘所</a></li><li><a href="#s11">11. BM25（語彙検索）：古いが強いベースライン</a></li><li><a href="#s12">12. Naive RAG はどこで壊れるか：7つの失敗点</a></li><li><a href="#s13">13. 「精度が悪い」を分解する：3つの根本原因</a></li><li><a href="#s14">14. PART 1</a></li><li><a href="#s15">15. Advanced RAG の定義：段階ごとの改善手法群</a></li><li><a href="#s16">16. 参照処理フロー①：取り込み側</a></li><li><a href="#s17">17. 参照処理フロー②：質問側</a></li><li><a href="#s18">18. 診断表：症状 → 疑う箇所 → 優先的に試す手段</a></li><li><a href="#s19">19. エビデンスの種類：出所で読み方を変える</a></li><li><a href="#s20">20. 数字を比較する際の5原則</a></li><li><a href="#s21">21. 指標の基礎①：検索の指標を手で計算してみる</a></li><li><a href="#s22">22. 指標の基礎②：回答・引用の指標</a></li><li><a href="#s23">23. PART 2</a></li><li><a href="#s24">24. 2-A 取込：構造を残すことが高度化の出発点</a></li><li><a href="#s25">25. 2-A 共通メタデータ：原文に戻れる設計にする</a></li><li><a href="#s26">26. 2-A チャンクサイズに普遍的な正解はない</a></li><li><a href="#s27">27. 2-A 親子検索：検索の粒度と読解の粒度を分ける</a></li><li><a href="#s28">28. 2-A Contextual Retrieval：チャンクに文脈説明を前置する</a></li><li><a href="#s29">29. 2-A Contextual Retrieval の効果をどう読むか</a></li><li><a href="#s30">30. 2-A Late Chunking：先に文脈化し、後で分割する</a></li><li><a href="#s31">31. 2-A 3つの文脈補完手法の比較と採用判断</a></li><li><a href="#s32">32. 2-B なぜハイブリッド検索が基本になるのか</a></li><li><a href="#s33">33. 2-B RRF（Reciprocal Rank Fusion）を手で計算する</a></li><li><a href="#s34">34. 2-B 埋め込みモデルの選定：BGE-M3 と日本語の現実</a></li><li><a href="#s35">35. 2-B バイエンコーダ・クロスエンコーダ・Late Interaction</a></li><li><a href="#s36">36. 2-B Late Interaction の代償：索引容量</a></li><li><a href="#s37">37. 2-B 再ランキングは「足せば必ず効く」部品ではない</a></li><li><a href="#s38">38. 2-B 検索段の設計：2段構えのファネル</a></li><li><a href="#s39">39. 2-C HyDE：質問を「仮想的な回答文書」に写像する</a></li><li><a href="#s40">40. 2-C 質問分解と推論による検索拡張</a></li><li><a href="#s41">41. 2-C クエリ系の実装原則と採用判断</a></li><li><a href="#s42">42. 2-D RAPTOR：抽象度をまたいで検索する</a></li><li><a href="#s43">43. 2-D 「GraphRAG」は単一の手法ではない</a></li><li><a href="#s44">44. 2-D Microsoft GraphRAG Global Search の仕組み</a></li><li><a href="#s45">45. 2-D HippoRAG 2：得るものと払うもの</a></li><li><a href="#s46">46. 2-D 2026年の比較研究が示すことと採用判断</a></li><li><a href="#s47">47. 2-E Self-RAG・CRAG・Agentic RAG を区別する</a></li><li><a href="#s48">48. 2-E 企業内で CRAG 型を使うときの分岐設計</a></li><li><a href="#s49">49. 2-E A-RAG：検索ツールの粒度をモデルに公開する</a></li><li><a href="#s50">50. 2-E 停止は検索そのものと同じくらい重要</a></li><li><a href="#s51">51. 2-E Agentic RAG の制御項目</a></li><li><a href="#s52">52. 2-E ルーティング：全質問を Agentic にしない</a></li><li><a href="#s53">53. 2-F RAFT：検索文脈の「使い方」を学習する</a></li><li><a href="#s54">54. 2-F Search-R1：検索の方策を強化学習する</a></li><li><a href="#s55">55. 2-G 視覚文書検索：OCR 中心とページ画像中心</a></li><li><a href="#s56">56. 2-G 表と数値：検索と計算を分離する</a></li><li><a href="#s57">57. 2-H 長文コンテキスト：「RAG か長文か」ではなく組み合わせ</a></li><li><a href="#s58">58. 2-H コンテキスト圧縮は根拠を改変するリスクも持つ</a></li><li><a href="#s59">59. 定量エビデンス台帳①：検索・前処理系</a></li><li><a href="#s60">60. 定量エビデンス台帳②：グラフ・Agent・学習・引用</a></li><li><a href="#s61">61. PART 3</a></li><li><a href="#s62">62. 自動評価は人手評価の「代用品」ではなく「増幅器」</a></li><li><a href="#s63">63. 層別の評価設計：失敗を分離できる指標を置く</a></li><li><a href="#s64">64. 比較実験の手順：Oracle から段階的に積み上げる</a></li><li><a href="#s65">65. 評価セットの作り方：カテゴリで分けて劣化を見逃さない</a></li><li><a href="#s66">66. 比較を統計的に正しく行う</a></li><li><a href="#s67">67. 2026年の評価動向：E2E・途中ホップ・大規模へ</a></li><li><a href="#s68">68. PART 4</a></li><li><a href="#s69">69. 検索結果は「信頼境界の外側」から来るデータである</a></li><li><a href="#s70">70. 運用要件①：5つの設計原則</a></li><li><a href="#s71">71. 運用要件②：ACL を検索境界に組み込む</a></li><li><a href="#s72">72. 運用要件③：鮮度と削除の伝播</a></li><li><a href="#s73">73. コストは検索・生成だけでなく「再構築」を含める</a></li><li><a href="#s74">74. PART 5</a></li><li><a href="#s75">75. 参照アーキテクチャ：9つのコンポーネント</a></li><li><a href="#s76">76. 制御ループの疑似コード（TypeScript 風）</a></li><li><a href="#s77">77. 実装上の4つの重要な区別</a></li><li><a href="#s78">78. 技術採用レーダー：全体像</a></li><li><a href="#s79">79. 採用レーダー詳細①：Adopt</a></li><li><a href="#s80">80. 採用レーダー詳細②：Trial・Assess・Hold</a></li><li><a href="#s81">81. 導入ロードマップ：ゲート条件で次に進む</a></li><li><a href="#s82">82. 用途別の初期方針</a></li><li><a href="#s83">83. PART 6</a></li><li><a href="#s84">84. テックリーダーの責務マップ</a></li><li><a href="#s85">85. 最初の 90 日プラン（目安）</a></li><li><a href="#s86">86. 意思決定の型：仮説 → 最小変更 → 層別測定 → 記録</a></li><li><a href="#s87">87. ステークホルダーとの対話：「精度は何%？」にどう答えるか</a></li><li><a href="#s88">88. 体制と役割：誰が何に責任を持つか</a></li><li><a href="#s89">89. 論文・ベンダー資料を読むときのチェックリスト</a></li><li><a href="#s90">90. アンチパターン集：よくある失敗と処方箋</a></li><li><a href="#s91">91. PART 7</a></li><li><a href="#s92">92. アンチパターンの全体地図：3 つの層</a></li><li><a href="#s93">93. 「万能スキーマ」の幻想：なぜ全データを 1 つの型に流し込めないのか</a></li><li><a href="#s94">94. データ・索引のアンチパターン一覧</a></li><li><a href="#s95">95. 集計・列挙を top-k で答えようとする</a></li><li><a href="#s96">96. 検索・生成のアンチパターン一覧</a></li><li><a href="#s97">97. 汎用リランカーの罠：学習領域の外では順位を壊す</a></li><li><a href="#s98">98. 文脈は多いほど良い、ではない</a></li><li><a href="#s99">99. 「答えられない」を設計しない／何でもエージェントとグラフに</a></li><li><a href="#s100">100. システム・組織・規模のアンチパターン一覧</a></li><li><a href="#s101">101. 規模の罠：コーパスが増えるほど検索は劣化する</a></li><li><a href="#s102">102. 中央集約（同期型）か、連合（都度取得）か</a></li><li><a href="#s103">103. 全社横断 RAG はどう作られているか①：製品の設計</a></li><li><a href="#s104">104. 全社横断 RAG はどう作られているか②：自社構築の事例</a></li><li><a href="#s105">105. 全社横断 RAG はどう作られているか③：国内の事例</a></li><li><a href="#s106">106. 乗り越えた事例に共通する 6 つのパターン</a></li><li><a href="#s107">107. 参照構成：ハブ＆スポーク型の社内 RAG</a></li><li><a href="#s108">108. 「特定エージェント専用」と「社内汎用」：最適化の難しさの正体</a></li><li><a href="#s109">109. 対象の規模・範囲別の設計指針</a></li><li><a href="#s110">110. Advanced RAG を語るための 7 つの持論（根拠付き）</a></li><li><a href="#s111">111. 自己診断チェックリスト：アンチパターンに陥っていないか</a></li><li><a href="#s112">112. Part 7 の主要出典</a></li><li><a href="#s113">113. 未解決点と証拠の限界</a></li><li><a href="#s114">114. 総括</a></li><li><a href="#s115">115. 付録：用語集①</a></li><li><a href="#s116">116. 付録：用語集②</a></li><li><a href="#s117">117. 付録：主要出典①</a></li><li><a href="#s118">118. 付録：主要出典②</a></li></ol></details></header>
   <main><section class="slide" id="s1" data-n="1"><img src="slides/s001.webp" loading="eager" width="1920" height="1080" alt="ADVANCED RAG"><details><summary>スライド 1 のテキストと解説</summary><div class="tx">ADVANCED RAG
 Advanced RAG 実践ガイド
 Naive RAG の次へ ― 失敗原因から設計する検索拡張生成
@@ -2040,7 +2040,444 @@ PoC は全権限で動かし本番で破綻
 カテゴリ劣化・p99 悪化を見逃す
 処方箋：カテゴリ別・長尾・重大誤答を見る
 90</div><div class="nt"><b>解説</b><p>6つのアンチパターンです。いきなりGraphRAGやAgentから始めると、基盤がないまま複雑さだけが増え、効いたかどうかも測れません。評価なしのチューニングは、チャンクサイズやプロンプトをいじり続けて改善したかどうか分からない状態に陥ります。全質問をAgenticにすると費用と遅延が膨らみます。生成物を証拠に混ぜると捏造の経路ができます。ACLを後付けすると全件の再取込と再設計が必要になります。平均値だけを見ると、重要カテゴリの劣化や長尾遅延を見逃します。</p></div></details></section>
-<section class="slide" id="s91" data-n="91"><img src="slides/s091.webp" loading="lazy" width="1920" height="1080" alt="未解決点と証拠の限界"><details><summary>スライド 91 のテキストと解説</summary><div class="tx">未解決点と証拠の限界
+<section class="slide" id="s91" data-n="91"><img src="slides/s091.webp" loading="lazy" width="1920" height="1080" alt="PART 7"><details><summary>スライド 91 のテキストと解説</summary><div class="tx">PART 7
+アンチパターン大全
+データ・検索・システムと規模の 3 層で、よくある失敗を「なぜ失敗するか・根拠・代わりにどうするか」で整理し、全社横断 RAG を乗り越えた事例から設計の型を学ぶ
+このPartで答えられるようになる問い
+なぜ「全データを 1 つのスキーマに」はうまくいかないのか？
+汎用リランカーや大きな top-k はいつ逆効果になるのか？
+規模が大きくなると何が壊れるのか？
+全社汎用 RAG は実際にどう作られているのか？
+91</div><div class="nt"><b>解説</b><p>Part 7 は、元レポートの外で集めた一次資料と実務報告に基づく補足です。各スライドの出典に、論文・ベンダーの自己申告・二次情報の区別を書いています。数値は、それぞれの条件のもとでの値です。</p></div></details></section>
+<section class="slide" id="s92" data-n="92"><img src="slides/s092.webp" loading="lazy" width="1920" height="1080" alt="アンチパターンの全体地図：3 つの層"><details><summary>スライド 92 のテキストと解説</summary><div class="tx">アンチパターンの全体地図：3 つの層
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+失敗の多くはモデルではなく、データの扱い・検索の組み立て・システムと組織の進め方にある
+データ・索引
+全ソースを 1 つのスキーマ・1 つの分割規則に
+表や帳票を文章として埋め込む
+集計・列挙を top-k で答える
+OCR 品質を確かめずに投入
+版・有効期間・権限を持たない
+要約と原文を区別せず混ぜる
+検索・生成
+汎用リランカー 1 つを全ドメインへ
+top-k と文脈は多いほど良い
+根拠が足りなくても答えさせる
+全質問をエージェントに
+何にでも GraphRAG
+人と突き合わせない LLM 評価
+システム・組織・規模
+全社基盤を最初に作るビッグバン
+全データを 1 つのベクトル DB に集約
+権限を後段フィルタだけで処理
+平均指標だけで判断
+コーパスが増えても品質が保てると考える
+フィードバックの経路がない
+NVIDIA の構築報告：生成の品質は検索の関連度に強く依存し、検索の関連度はメタデータ・分割・クエリの言い換えに依存する
+92</div><div class="nt"><b>解説</b><p>Part 7 で扱うアンチパターンを 3 つの層に分けた地図です。データと索引の層は、取り込みとスキーマの設計の失敗です。検索と生成の層は、リランカー、取得件数、エージェントの使い方の失敗です。システム・組織・規模の層は、全社基盤の進め方、データの集約、権限、評価、規模の拡大に伴う失敗です。NVIDIA が 3 つの社内チャットボットの構築経験からまとめた報告も、生成の品質は検索の関連度に強く依存し、検索の関連度はメタデータ・分割・言い換えに依存すると述べています。</p></div></details></section>
+<section class="slide" id="s93" data-n="93"><img src="slides/s093.webp" loading="lazy" width="1920" height="1080" alt="「万能スキーマ」の幻想：なぜ全データを 1 つの型に流し込めないのか"><details><summary>スライド 93 のテキストと解説</summary><div class="tx">「万能スキーマ」の幻想：なぜ全データを 1 つの型に流し込めないのか
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+データの種類ごとに「何を関連とみなすか」が違う。1 つの分割規則・埋め込みでは、どれかが必ず崩れる
+出典: NVIDIA「FACTS About Building RAG-based Chatbots」(arXiv:2407.07858)、Seven Failure Points(CAIN 2024)、実践編ケーススタディ(FMEA 作成支援、OpenSearch で実測)
+アンチパターン
+全ソースを同じスキーマ・同じ分割・同じ埋め込みに
+「揃えれば検索で何とかなる」と考える
+改善を全体平均で判断する
+代わりに
+ソースの種類ごとに取込・分割・検索方式を分ける
+共通にするのは最小の契約（ID・版・権限・有効期間・原文位置）
+ソースの選択（ルーティング）を前段に置く
+実践編で観測したこと | 結果
+同じ構造化取込が FMEA の Excel に効く一方 | FMEA 2/8 → 7/8、特許 4/6 → 1/6
+文脈ヘッダをファイル名にすると | 38 問 → 34 問（型番の質問が取説へ）
+93</div><div class="nt"><b>解説</b><p>NVIDIA の報告は、構造化・非構造化・半構造化のデータにはそれぞれに合った検索器が必要だと書いています。Seven Failure Points も、マッチの質はドメインに依存すると述べています。実践編のケーススタディでも、同じ取込の改善が、FMEA の Excel には 2 問から 7 問へ大きく効く一方で、特許の質問は 4 問から 1 問に下げました。文脈ヘッダも、ファイル名を使うと型番入りの質問を取説に引き寄せました。「全データを同じ型に揃えれば後は検索で何とかなる」は成り立ちません。代わりに、ソースの種類ごとに取込と検索を分け、全ソースに共通なのは最小限の契約（識別子・版・権限・有効期間・原文の位置）だけにします。</p></div></details></section>
+<section class="slide" id="s94" data-n="94"><img src="slides/s094.webp" loading="lazy" width="1920" height="1080" alt="データ・索引のアンチパターン一覧"><details><summary>スライド 94 のテキストと解説</summary><div class="tx">データ・索引のアンチパターン一覧
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+どれも「取込の段階で失った情報は、後段のどんな工夫でも取り戻せない」という同じ原理に帰着する
+出典: Anthropic Contextual Retrieval、Is Semantic Chunking Worth the Computational Cost?(arXiv:2410.13070)、OHRBench(arXiv:2412.02592)、OWASP LLM08:2025、Seven Failure Points
+アンチパターン | なぜ失敗するか | 代わりにどうするか
+固定長で一律に分割して終わり | 見出し・文書名が失われ、チャンク単体で意味を誤る | 見出し・文脈を付ける。サイズは評価セットで探索
+ベクトル検索だけ | 型番・固有名詞・完全一致に弱い | BM25＋Dense のハイブリッドを初期構成に
+表・帳票を文章として埋め込む | 値と列名・行の対応が切れる | 行単位で「列名: 値」。集計は構造化検索へ
+OCR の品質を確かめずに投入 | 誤読と表崩れが検索と生成に連鎖 | 取込に品質ゲート。原本ページへのリンク
+版・有効期間・権限を持たない | 新旧の規程を両方根拠に矛盾した回答 | 必須メタデータに。古い版は無効フラグ
+要約と原文を区別せず混ぜる（根拠は間接的） | 要約の誤りが「根拠」として引用される | 要約は探す入口、引用は原文だけ
+94</div><div class="nt"><b>解説</b><p>取込と索引のアンチパターンの一覧です。固定長の一律分割については、意味単位の分割が計算コストに見合う一貫した改善をもたらさないという研究もあり、分割方法に凝るより、見出しや文脈を付ける方が効きます。Anthropic の評価では、チャンクに文脈を付けて BM25 も併用すると検索失敗率が 49% 減りました。OCR については、OHRBench が 8,561 の文書画像で、知識ベース構築に十分な品質の OCR は 1 つもなく、ノイズが増えるほど RAG の性能が下がると報告しています。版や有効期間を持たないと、新旧の規程を両方根拠にした矛盾した回答が出ます。OWASP も複数ソースの矛盾をリスクに挙げています。要約と原文の混在は、直接検証した論文は見つかっておらず、GraphRAG の設計からの推論です。</p></div></details></section>
+<section class="slide" id="s95" data-n="95"><img src="slides/s095.webp" loading="lazy" width="1920" height="1080" alt="集計・列挙を top-k で答えようとする"><details><summary>スライド 95 のテキストと解説</summary><div class="tx">集計・列挙を top-k で答えようとする
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+「何件？」「全部挙げて」は、上位 k 件を抜き出す仕組みでは構造的に答えられない。質問の型で振り分ける
+出典: GraphRAG(arXiv:2404.16130)、Thoughtworks Technology Radar Vol.33(2025-11、Text to SQL を Hold)、Pinterest Engineering「How we built Text-to-SQL at Pinterest」、実践編ケーススタディ
+質問の型を判定
+事実照会／列挙・集計／全体要約
+事実照会
+ハイブリッド＋再ランキング
+列挙・集計
+メタデータ絞り込み・セマンティックレイヤー
+全体要約
+コミュニティ要約など
+1/3 → 3/3
+実践編：列挙型の質問。top-k では 1 件、型番で絞る構造化フィルタで全 3 件
+40% → 90%
+Pinterest：テーブルのドキュメントを埋め込みに含めると検索ヒット率が最大 90%
+注意
+ただし Text to SQL を監督なしで使うのも危険。Thoughtworks Radar Vol.33 は Hold とし、人のレビューとセマンティックレイヤー経由を推奨
+リーダーの視点
+「何件？」「全部？」という質問が評価セットに何割あるかを最初に数える。多ければ RAG ではなく構造化検索の案件
+95</div><div class="nt"><b>解説</b><p>top-k は上位 k 件の抜き出しなので、網羅が必要な質問には向きません。GraphRAG の論文も、コーパス全体を問う質問では通常の RAG は失敗すると書いています。実践編でも、MDA-200 のコネクタが原因の不具合事例を問う質問は、上位 5 件に 3 件中 1 件しか入りませんでしたが、正規化した型番で絞る構造化フィルタでは 3 件すべて取れました。ただし、集計を LLM の SQL 生成に任せるのも危険です。Thoughtworks Radar Vol.33 は Text to SQL を Hold にし、生成したクエリは人がレビューすること、dbt や Cube のようなセマンティックレイヤーを経由することを推奨しています。Pinterest は表データの検索で、テーブルのドキュメントを埋め込みに含めないと検索ヒット率が 40% にとどまり、重みを上げると最大 90% まで上がったと報告しています。表の検索でも、表の「説明」の品質が支配的です。</p></div></details></section>
+<section class="slide" id="s96" data-n="96"><img src="slides/s096.webp" loading="lazy" width="1920" height="1080" alt="検索・生成のアンチパターン一覧"><details><summary>スライド 96 のテキストと解説</summary><div class="tx">検索・生成のアンチパターン一覧
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+「足せば良くなる」「多いほど良い」という直感が、検索と生成の段で最も裏切られる
+出典: BRIGHT(ICLR 2025)、Lost in the Middle(TACL 2023)、Long-Context LLMs Meet RAG(arXiv:2410.05983)、Sufficient Context(ICLR 2025)、Adaptive-RAG(NAACL 2024)、LazyGraphRAG(Microsoft Research)、Judging LLM-as-a-Judge(NeurIPS 2023)
+アンチパターン | なぜ失敗するか | 代わりにどうするか
+汎用リランカー 1 つを全ドメインへ | 学習領域外では順位を壊す | ドメイン別の評価セットで選び、件数も調整
+top-k・文脈は多いほど良い | 中央の情報が読まれず、紛らわしい文書に誤導される | k をモデル×タスクで測る。絞ってから渡す
+根拠が足りなくても答えさせる | 大きなモデルほど控えずに誤答する | 十分性の判定と、控える経路を設計に入れる
+全質問をエージェントの反復に | 単純な質問で費用と遅延が無駄に増える | 複雑さで振り分け、複雑な質問だけ
+何にでも GraphRAG | 索引の構築費が大きく、更新に弱い | 全体要約・関係探索に限定。軽量版から
+人と突き合わせない LLM 評価 | 順序・長さ・自己選好のバイアス | 少数の人手ラベルで一致率を測ってから使う
+書き換えで制約が落ちる（未検証） | 日付・否定・型番が消える | 制約は構造化フィルタとして保持
+96</div><div class="nt"><b>解説</b><p>検索と生成の段のアンチパターンの一覧です。詳細は次の 3 枚で、リランカー、文脈の量、エージェントとグラフの順に見ます。LLM による評価は、GPT-4 が人間と 80% 超一致したという報告がある一方で、提示順・長さ・自分の出力を好むバイアスが明記されています。少数の人手ラベルで一致率を測ってから使います。クエリの書き換えで日付や否定などの制約が落ちる問題は、定量的な一次資料は見つかっていませんが、制約は構造化フィルタとして抜き出して保持するのが安全です。</p></div></details></section>
+<section class="slide" id="s97" data-n="97"><img src="slides/s097.webp" loading="lazy" width="1920" height="1080" alt="汎用リランカーの罠：学習領域の外では順位を壊す"><details><summary>スライド 97 のテキストと解説</summary><div class="tx">汎用リランカーの罠：学習領域の外では順位を壊す
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+MS MARCO で学習した小型リランカーは、推論が必要な検索で BM25 より悪化した。件数を増やすほど悪化する
+出典: BRIGHT(arXiv:2407.12883、ICLR 2025)、Drowning in Documents(arXiv:2411.11767、SIGIR 2025 ReNeuIR)、DeNA Engineering Blog(2025-11)
+決めるべきこと
+どのドメインに入れるか
+どのリランカーか（言語・領域）
+何件を並べ替えるか
+ポイント
+効く例もある：DeNA は上位 100 件を 20 件に絞る構成を採用。実践編でも日本語の再ランカーで 40 → 44 問。評価で決める部品
+97</div><div class="nt"><b>解説</b><p>BRIGHT は推論を必要とする検索のベンチマークです。MS MARCO で学習した小型のクロスエンコーダ MiniLM で再ランキングすると、BM25 単体の nDCG@10 14.3 が、上位 10 件の再ランキングで 13.1、上位 100 件では 8.3 に下がりました。GPT-4 による再ランキングは 17.4 に改善しています。また、汎用ベンチマーク MTEB で首位だった埋め込みモデルも、BRIGHT では 18.3 にとどまりました。Drowning in Documents は、再ランキングする件数を増やすと最初は改善し、やがて悪化すると報告しています。一方、DeNA の社内ヘルプデスクは上位 100 件を Cohere Rerank 3.5 で 20 件に絞る構成を最終的に採用しており、実践編でも日本語の再ランカーで 40 問から 44 問に上がりました。リランカーは「入れるか」ではなく、「どのドメインに、どれを、何件に」を評価で決める部品です。</p></div></details></section>
+<section class="slide" id="s98" data-n="98"><img src="slides/s098.webp" loading="lazy" width="1920" height="1080" alt="文脈は多いほど良い、ではない"><details><summary>スライド 98 のテキストと解説</summary><div class="tx">文脈は多いほど良い、ではない
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+取得件数を増やすと生成品質はいったん上がってから下がる。最適点はモデルとタスクごとに違うので、測って決める
+出典: Lost in the Middle(TACL 2023)、Long-Context LLMs Meet RAG(arXiv:2410.05983)、Databricks Blog「Long Context RAG Performance of LLMs」、Chroma Research「Context Rot」、DeNA Engineering Blog、実践編ケーススタディ
+増やしすぎると下がる証拠
+中央にある情報は読まれにくい（Lost in the Middle）
+件数を増やすと品質は上がってから下がる。主因は紛らわしい文書
+Databricks：ピークは gpt-4-turbo で 16k、Llama-3.1-405b で 32k 付近
+Chroma：18 モデルすべてで長い入力ほど信頼性が低下
+「k を増やして解決」は、増やして効く範囲と悪化する範囲がある。上位 5 件と 10 件の両方で測り、費用・遅延と並べて決める
+98</div><div class="nt"><b>解説</b><p>文脈の量についての証拠です。Lost in the Middle は、関連情報が入力の中央にあると性能が大きく下がることを示しました。Google の研究者らは、取得する文章を増やすと生成品質がいったん上がってから下がり、その主因は、正解を含まないのに関連しそうに見える文書だと報告しています。Databricks の測定では、性能のピークは gpt-4-turbo で 16k、Llama-3.1-405b で 32k 付近でした。Chroma は 18 のモデルすべてで、入力が長くなるほど信頼性が下がると報告しています。一方、DeNA の測定では取得件数 5 件・10 件・20 件で精度が 54%・61%・69% と上がり、実践編でも上位 5 件から 10 件で 44 問から 46 問に増えました。増やして効く範囲と、悪化する範囲の両方があるので、モデル×タスクで測って決めます。</p></div></details></section>
+<section class="slide" id="s99" data-n="99"><img src="slides/s099.webp" loading="lazy" width="1920" height="1080" alt="「答えられない」を設計しない／何でもエージェントとグラフに"><details><summary>スライド 99 のテキストと解説</summary><div class="tx">「答えられない」を設計しない／何でもエージェントとグラフに
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+根拠が足りないときに控える経路を作る。高価な機構は、必要な質問にだけ振り分ける
+出典: Sufficient Context(arXiv:2411.06037、ICLR 2025)、Adaptive-RAG(arXiv:2403.14403、NAACL 2024)、Microsoft Research「LazyGraphRAG」、Anthropic「How we built our multi-agent research system」
+根拠が足りなくても答えさせる
+大きなモデルほど控えずに誤答
+十分性で控える方式で、回答時の正答率 +2〜10%
+→ 十分性の判定と「答えない」経路
+全質問をエージェントに
+複雑さで振り分けると効率と精度が両方改善（Adaptive-RAG）
+マルチエージェントは +90.2% だがトークン約 15 倍
+→ 複雑な質問だけ
+何にでも GraphRAG
+索引の構築で LLM を大量に呼ぶ
+軽量版は構築費がフル版の 0.1%
+→ 全体要約・関係探索に限定。Radar では Trial
+リーダーの視点
+高価な機構は「入れるか」ではなく「どの質問に回すか」で決める。先に質問の型と難しさを数え、振り分けの規則を作る
+99</div><div class="nt"><b>解説</b><p>Google の Sufficient Context の研究では、Gemini 1.5 Pro、GPT-4o、Claude 3.5 は、文脈が不十分なときに回答を控えずに誤答しがちでした。文脈の十分性を使って回答を控える方式で、回答したケースの正答率が 2〜10% 改善しました。エージェントについては、Adaptive-RAG が質問の複雑さで「検索なし／1 回検索／反復検索」を切り替えると、効率と精度の両方が改善したと報告しています。Anthropic のマルチエージェントの調査システムは、単一エージェント比で社内評価が 90.2% 向上した一方、トークン消費はチャットの約 15 倍でした。GraphRAG は、Microsoft の LazyGraphRAG が索引構築費をフル GraphRAG の 0.1% に抑えたと報告しており、まず軽量な方式から検討します。なお、Thoughtworks Radar では GraphRAG は Hold ではなく Trial です。</p></div></details></section>
+<section class="slide" id="s100" data-n="100"><img src="slides/s100.webp" loading="lazy" width="1920" height="1080" alt="システム・組織・規模のアンチパターン一覧"><details><summary>スライド 100 のテキストと解説</summary><div class="tx">システム・組織・規模のアンチパターン一覧
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+技術選定より前の「進め方」の誤りは、後から直すほど高くつく
+出典: Seven Failure Points(CAIN 2024)、OWASP LLM08:2025、Weaviate Docs「Filtering」、Greshake et al.(arXiv:2302.12173)、PoisonedRAG(USENIX Security 2025)、Thoughtworks Technology Radar Vol.34
+アンチパターン | なぜ失敗するか | 代わりにどうするか
+全社基盤を最初に作るビッグバン | 検証は運用中にしかできず、評価の的がない | 価値の高い 1〜2 ユースケースを縦に作り切る
+全データを 1 つのベクトル DB に集約 | 鮮度・再索引・権限の二重管理 | ソースごとに同期型と連合型を選ぶ
+権限を後段フィルタだけで処理 | 漏洩リスクと、厳しい条件での再現率の急落 | 検索前・検索中に絞る。導入前に過剰共有を棚卸し
+平均指標だけで判断 | 特定の質問型の大きな失敗が隠れる | ユースケース×質問型の層別と最悪ケース
+コーパスが増えても品質が保てる | 似て非なる文書が上位に増える | 規模を変えて劣化を測ってから全量投入
+取得文書を信頼できるデータとして扱う | 文書内の命令がツール操作・漏洩に | ソース認証、最小権限、重要操作は人の承認
+クエリを見る前に保存基盤を選ぶ | 失敗の多くは検索とデータの問題 | 実際のクエリを分類してから方式を決める
+フィードバックの経路がない | 頑健性が育たない | 低評価・控えた回答を評価セットへ戻す
+100</div><div class="nt"><b>解説</b><p>システムと組織の段のアンチパターンです。Seven Failure Points の 2 大教訓は、RAG の検証は運用中にしかできないこと、頑健性は最初に設計し込むものではなく育っていくものだということでした。だから全社基盤を最初に作るビッグバンは危険です。権限を後段のフィルタだけで扱うと、漏洩のリスクに加え、条件の厳しいフィルタで結果が残らず再現率が急落します。取得した文書の中の命令文は、間接プロンプトインジェクションとしてツールの呼び出しやデータ漏洩につながります。クエリを理解する前に保存基盤を選ぶのも、失敗の多くが検索とデータの問題であることを見落としています。規模と集約の問題は次の 2 枚で扱います。</p></div></details></section>
+<section class="slide" id="s101" data-n="101"><img src="slides/s101.webp" loading="lazy" width="1920" height="1080" alt="規模の罠：コーパスが増えるほど検索は劣化する"><details><summary>スライド 101 のテキストと解説</summary><div class="tx">規模の罠：コーパスが増えるほど検索は劣化する
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+文書が 100 倍になると、同じ k でも正解が上位に残りにくい。Dense は特に速く劣化する
+出典: Reimers &amp; Gurevych「The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes」(ACL 2021)、Onyx Blog「Retrieval corpus scaling」(ベンダー、単一データセット)、PoisonedRAG(USENIX Security 2025)
+起きること
+似て非なる文書が上位に入り込む
+Dense は BM25 より速く劣化（ACL 2021）
+汚染に必要な文書は少数（5 件で成功率 90%）
+リーダーの視点
+PoC の規模で品質を約束しない。コーパスの一部を 10 倍・100 倍と増やして劣化曲線を測り、ハイブリッド・k の調整・索引の分割を計画に入れる
+101</div><div class="nt"><b>解説</b><p>規模の拡大に伴う劣化の証拠です。Reimers と Gurevych は ACL 2021 で、Dense 検索は Sparse 検索より速いペースで索引の規模とともに劣化し、ある規模で BM25 に逆転されることを示しました。検索ベンダーの Onyx は、単一のデータセットでコーパスを 5,000 件から 51 万件に増やすと、上位 10 件の再現率が BM25 で 85.0% から 55.7%、Dense で 81.3% から 40.7% に下がったと報告しています。ベンダーの単一の測定なので数値は参考値ですが、方向は論文と一致します。PoisonedRAG では、数百万件の知識ベースに 1 つの質問あたり 5 件の悪意あるテキストを入れるだけで、攻撃成功率が 90% でした。小さな PoC で良くても、全社規模に広げると同じ構成で品質が下がることを前提に計画します。</p></div></details></section>
+<section class="slide" id="s102" data-n="102"><img src="slides/s102.webp" loading="lazy" width="1920" height="1080" alt="中央集約（同期型）か、連合（都度取得）か"><details><summary>スライド 102 のテキストと解説</summary><div class="tx">中央集約（同期型）か、連合（都度取得）か
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+どちらか一方ではない。主要な製品は、ソースごとに「索引を作るか、元の場所から都度取るか」を選ばせている
+出典: Google Cloud「Gemini Enterprise: Introduction to connectors and data stores」、Microsoft Learn「Copilot connectors / Federated connectors」、Slack Engineering、Dropbox Tech Blog、Boris Cherny(X, 2026-02-01)、Cursor Blog「Semantic search」
+ | 同期型（索引を作る） | 連合型（都度取得）
+長所 | 統合した順位付け、グラフ由来のシグナル、速い | 鮮度が高い、権限が元で効く、複製しない
+短所 | ACL 同期と再索引の運用負荷、鮮度の遅れ | 横断の順位付けが難しい、遅延、クエリが外部へ
+向くデータ | 静的な知識（規程・マニュアル・過去事例） | 動的なデータ、規制対象のデータ
+例 | Glean、Notion、Microsoft 同期コネクタ | Slack の外部検索、Microsoft 連合コネクタ
+Dropbox Dash の教訓
+ツールを増やすと定義が文脈を圧迫し精度低下 → 検索ツールを 1 本に統合
+コード検索は論争中
+Claude Code は grep 系で十分と述べ、Cursor は意味検索の併用で精度向上と報告
+102</div><div class="nt"><b>解説</b><p>索引の持ち方には、データを取り込んで索引を作る同期型と、元のシステムの検索 API や MCP で都度取る連合型があります。Google の Gemini Enterprise の公式ドキュメントは、連合型はコピー不要だが索引がないため品質が下がりうる、取り込み型は品質が上がるが容量と時間を消費する、とトレードオフを明記しています。Microsoft 365 Copilot も、同期型のコネクタと、MCP で都度取る連合型のコネクタを併用し、連合型は動的なデータや規制対象のデータ向けとしています。Slack は外部ソースのデータを保存せず、パートナーの検索 API を使う連合型を選びました。Dropbox Dash は、ツールを増やすとツール定義が文脈を圧迫して長時間のジョブで精度が落ちたため、検索ツールを 1 本に統合しました。コードの領域では、Claude Code の責任者が grep 系の検索の方がシンプルで良かったと述べる一方、Cursor は意味検索の併用で精度が上がると報告しており、見解は分かれています。</p></div></details></section>
+<section class="slide" id="s103" data-n="103"><img src="slides/s103.webp" loading="lazy" width="1920" height="1080" alt="全社横断 RAG はどう作られているか①：製品の設計"><details><summary>スライド 103 のテキストと解説</summary><div class="tx">全社横断 RAG はどう作られているか①：製品の設計
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+どの製品も「1 つの索引に全部」ではない。ソース別のコネクタ、権限、索引の持ち方、ソース別のデータストアを持つ
+出典: Glean Docs / Blog、Microsoft Learn(Copilot connectors、Retrieval API)、Google Cloud(Gemini Enterprise)、AWS Docs / Blog(Amazon Q Business)、Dropbox Tech Blog、Slack Engineering、Notion Blog「Two years of vector search at Notion」
+製品 | ソースの扱い | 索引・順位付け | 報告されている数値（条件）
+Glean | ソース別コネクタで内容・活動・ID・権限 | グラフ＋ベクトル・キーワード・個人化 | 導入 6 か月で検索品質 +20%（自己申告）
+Microsoft 365 Copilot | 同期型と連合型（MCP）のコネクタ | テナント層とユーザー層の 2 層の意味索引 | —
+Gemini Enterprise | エンティティの種類ごとに別データストア | 取り込み型と連合型を選択 | —
+Amazon Q Business | 40 以上のコネクタ、ACL を索引に保持 | 2025-08 にエージェント型検索を追加 | —
+Dropbox Dash | 統合索引＋グラフ | 検索＋即時分割＋再ランキング | 95% 超のクエリを 1〜2 秒以内
+Notion AI | 中央索引、編集を 1 分以内に反映 | ベクトル検索 | 2 年で規模 10 倍、コスト −90%
+103</div><div class="nt"><b>解説</b><p>全社横断の検索・回答製品の設計です。Glean はソースごとのコネクタで内容・活動・ID・権限を取り込み、人とコンテンツと活動の関係をグラフにまとめ、ベクトル・キーワード・個人化のハイブリッドで順位付けします。導入 6 か月で検索品質が通常 20% 向上という数値はベンダーの自己申告です。Microsoft 365 Copilot は、テナントとユーザー個別の 2 層の意味索引を持ち、Graph の活動シグナルで補正します。Google の Gemini Enterprise は、Jira の課題・コメント・作業記録のようにエンティティの種類ごとに別のデータストアを作ります。Amazon Q Business は ACL を文書と一緒に索引に持ち、2025 年 8 月にエージェント型の検索を加えました。Notion はページの編集を 1 分以内に索引へ反映し、2 年で規模 10 倍、コスト 90% 削減と報告しています。</p></div></details></section>
+<section class="slide" id="s104" data-n="104"><img src="slides/s104.webp" loading="lazy" width="1920" height="1080" alt="全社横断 RAG はどう作られているか②：自社構築の事例"><details><summary>スライド 104 のテキストと解説</summary><div class="tx">全社横断 RAG はどう作られているか②：自社構築の事例
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+成功例は例外なく「領域を絞って」始め、取込の品質・ルーティング・評価に投資している
+出典: Uber Engineering「Enhanced Agentic RAG」、LinkedIn(arXiv:2404.17723、SIGIR 2024)、Pinterest Engineering、Grab Engineering「Hubble」、DoorDash Engineering「Dasher support automation」
+事例 | 絞った領域 | 効いた打ち手 | 報告された結果（条件）
+Uber（EAg-RAG） | セキュリティ・プライバシーの方針文書 40+ | 表を正しく取る取込、質問の補完、ソース特定（ルーティング） | 許容回答 +27%、誤った助言 −60%（相対、ゴールデンセット 100 問+）
+LinkedIn | カスタマーサービスの過去チケット | チケットの構造と関係をナレッジグラフに | MRR +77.6%、解決時間の中央値 −28.6%（約 6 か月）
+Pinterest | 社内の分析用テーブル | 表専用の索引、表ドキュメントの重み付け | 検索ヒット率 40% → 最大 90%
+Grab（Hubble） | データカタログ | 検索の種類で振り分け、75% は従来検索のまま | クリック率 82% → 94%
+DoorDash | 配達員サポート | 2 段のガードレールと LLM 評価 | ハルシネーション −90%、重大な問題 −99%
+104</div><div class="nt"><b>解説</b><p>自社で構築した事例です。Uber は 40 以上のセキュリティ・プライバシーの方針文書を対象に、SME が作った 100 問以上のゴールデンセットで評価しました。PDF のパーサをやめて HTML 化した文書で表を正しく取り出し、曖昧な質問を補う最適化と、対象の文書群を絞るソース特定を前段に置いて、許容回答率が相対 27% 増、誤った助言が相対 60% 減でした。LinkedIn は過去のチケットを平らなテキストとして切らず、チケット内の構造とチケット間の関係を持つナレッジグラフにし、MRR が 77.6% 改善、約 6 か月の運用で解決時間の中央値が 28.6% 短縮しました。Grab は検索を 4 種類に分け、75% を占める完全一致・部分一致は Elasticsearch のままにし、残り 25% の曖昧な検索だけを LLM に回して、クリック率を 82% から 94% にしました。DoorDash は安価なチェックと LLM 評価の 2 段のガードレールで、ハルシネーションを 90%、重大なコンプライアンス問題を 99% 減らしました。</p></div></details></section>
+<section class="slide" id="s105" data-n="105"><img src="slides/s105.webp" loading="lazy" width="1920" height="1080" alt="全社横断 RAG はどう作られているか③：国内の事例"><details><summary>スライド 105 のテキストと解説</summary><div class="tx">全社横断 RAG はどう作られているか③：国内の事例
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+国内でも、対象を段階的に広げ、評価と再ランキングを測って決めた事例が公開されている
+出典: パナソニック コネクト ニュースリリース(2024-06-25、2026-07-29)、DeNA Engineering Blog(2025-11)、富士通 プレスリリース(2024-06)、メルカリ Engineering Blog(2024-12)
+パナソニック コネクト ConnectAI
+公開情報で試行 → 2024-04 から社外秘の品質管理文書 630 件・11,743 頁
+引用元を表示
+2025 年度の削減時間 78.8 万時間（総労働時間の 3.4%）
+DeNA 社内ヘルプデスク Findout
+LLM が 0〜4 点で採点、3 点以上を合格
+取得 5/10/20 件で精度 54/61/69%
+上位 100 件を再ランキングで 20 件、階層チャンク 300/1,200 字
+富士通・メルカリ
+富士通：規則・法令・マニュアルからナレッジグラフを自動生成（実運用の数値は未確認）
+メルカリ：エンジニアリング知識を日英またいで回答（定量結果なし）
+ポイント
+共通点：小さく始めて対象を広げる／引用元を示す／件数や再ランキングを自分たちの評価で決める
+105</div><div class="nt"><b>解説</b><p>国内の公開事例です。パナソニック コネクトの ConnectAI は、公開情報での試行から始め、2024 年 4 月から社外秘の品質管理文書 630 件・11,743 ページへ広げました。引用元を表示し、2025 年度の削減時間は 78.8 万時間（総労働時間の 3.4%）と発表しています。今後は SFA や ERP の構造化データと連携するエージェントに進めるとしています。DeNA の社内ヘルプデスク Findout は、LLM が 0〜4 点で採点して 3 点以上を合格とする自動評価を回し、取得件数 5・10・20 件で精度 54・61・69% を測ったうえで、上位 100 件を再ランキングで 20 件に絞り、300 字と 1,200 字の階層チャンクを使う構成にしました。富士通は規則・法令・マニュアルからナレッジグラフを自動生成する技術を発表していますが、実運用の数値は確認できていません。メルカリはエンジニアリングの知識を日英をまたいで回答させる仕組みを公開していますが、定量的な結果はありません。</p></div></details></section>
+<section class="slide" id="s106" data-n="106"><img src="slides/s106.webp" loading="lazy" width="1920" height="1080" alt="乗り越えた事例に共通する 6 つのパターン"><details><summary>スライド 106 のテキストと解説</summary><div class="tx">乗り越えた事例に共通する 6 つのパターン
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+「汎用の 1 つ」を作るのではなく、絞った縦割りを評価付きで作り、共通部品とルーターで束ねる
+出典: 前 3 枚の事例(Uber、LinkedIn、Pinterest、Grab、DoorDash、Glean、Microsoft、Google、Dropbox、Slack、パナソニック コネクト、DeNA)の整理
+絞った縦割りから
+ユースケースを 1〜2 個に絞り、ゴールデンセットで関門を作る（Uber、パナソニック、LinkedIn）
+ルーター＋専門検索器
+ソース特定・質問の種類で振り分け、表・チケット・文書に専用の検索（Uber、Grab、Pinterest）
+ソース別の取込品質
+表の抽出、ドキュメント生成、構造の保持。リランカーより前が支配的（Uber、Pinterest）
+権限を考慮した取込
+ACL を索引に持つか、ユーザー資格で都度取得（Amazon Q、Glean、Slack）
+索引の持ち方を選ぶ
+静的な知識は同期型、動的・規制対象は連合型。ツールは少数に統合（Microsoft、Dropbox）
+評価とフィードバックの常設
+LLM 評価器、用途別の指標、利用データの還流（DoorDash、DeNA、Glean）
+106</div><div class="nt"><b>解説</b><p>事例に共通するパターンを 6 つにまとめました。1 つ目は、領域を絞った縦割りから始めることです。Uber はセキュリティ、パナソニックは品質管理、LinkedIn はカスタマーサービスから始め、ゴールデンセットと専門家の評価を関門にしました。2 つ目は、ルーターと専門の検索器の組み合わせです。3 つ目は、ソースごとの取込の品質が最大の効きどころだということで、リランカーより前の段階が支配的でした。4 つ目は、権限を考慮した取込で、ACL を索引に持つか、ユーザーの資格情報で都度取得します。5 つ目は、索引の持ち方をソースごとに選ぶことで、静的な知識は同期型、動的・規制対象のデータは連合型にし、エージェントに渡すツールは少数に統合します。6 つ目は、評価とフィードバックを常設することです。</p></div></details></section>
+<section class="slide" id="s107" data-n="107"><img src="slides/s107.webp" loading="lazy" width="1920" height="1080" alt="参照構成：ハブ＆スポーク型の社内 RAG"><details><summary>スライド 107 のテキストと解説</summary><div class="tx">参照構成：ハブ＆スポーク型の社内 RAG
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+中央に置くのはルーターと共通基盤だけ。検索はデータ特性ごとの「スポーク」に任せ、スポーク単位で評価・改善する
+利用者の質問
+ルーター
+質問の型とソースを判定
+規程・マニュアル　ハイブリッド＋再ランキング
+表・帳票　セマンティックレイヤー・行単位索引
+チケット・不具合　メタデータ＋ナレッジグラフ
+特許・図面　リファレンスグラフ
+動的データ　元システムの API を連合検索
+共通基盤：最小の契約（ID・版・権限・有効期間・原文位置）／権限判定／評価とトレース／監視
+各スポークが自分の評価セットを持ち、独立して改善する
+107</div><div class="nt"><b>解説</b><p>前のスライドのパターンを構成図にしたものです。利用者の質問は、まずルーターが受け、質問の型（事実照会・列挙集計・全体要約・多段）と対象のソースを判定します。その先に、データ特性ごとの専門の検索器、つまりスポークを並べます。規程やマニュアルはハイブリッド検索と再ランキング、表や帳票はセマンティックレイヤーや行単位の索引、チケットや不具合はメタデータとナレッジグラフ、特許はリファレンスグラフ、動的なデータは元のシステムの API を MCP 経由で連合検索、という具合です。中央の共通基盤には、ID・版・権限・有効期間・原文の位置という最小の契約、権限の判定、評価とトレース、監視だけを置きます。各スポークは自分の評価セットを持ち、独立して改善できます。全社汎用の仕組みは、1 つの最適化された索引ではなく、スポークの集合として作られます。</p></div></details></section>
+<section class="slide" id="s108" data-n="108"><img src="slides/s108.webp" loading="lazy" width="1920" height="1080" alt="「特定エージェント専用」と「社内汎用」：最適化の難しさの正体"><details><summary>スライド 108 のテキストと解説</summary><div class="tx">「特定エージェント専用」と「社内汎用」：最適化の難しさの正体
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+専用索引は質問と評価セットが決まるので最適化できる。汎用はスポーク＋ルーターで作る
+観点 | 特定エージェント・業務専用 | 社内汎用
+質問の分布 | 狭く、安定している | 広く、変化する
+正解の基準 | 用途で 1 つに決まる | 用途ごとに違う
+評価セット | 作れる（数十〜百問で効く） | 全体を代表するものは作れない
+リランカー・k・分割 | 測って最適化できる | 平均で最適化すると特定用途で崩れる
+汎用の作り方
+重点用途ごとに最適化したスポーク＋ルーター。どこにも当たらない質問は汎用検索で「探す手助け」
+リーダーの視点
+「汎用で高精度」を約束しない。「重点用途は評価付きで高精度、それ以外は探す手助け」と期待値を分けて合意する
+108</div><div class="nt"><b>解説</b><p>特定の AI エージェントや業務に特化した索引は、質問の型・対象の文書・正解の基準が決まっているので、評価セットを作れ、リランカーや k、分割方法を測って最適化できます。実践編のケーススタディがまさにその形でした。一方、社内汎用の RAG では、質問の分布が広く変化し、正解の基準も用途ごとに違うので、1 つの設定で全体を最適化することができません。平均で最適化すると、特定の用途で大きく失敗します。乗り越えた事例は、汎用を 1 つの最適化された索引としてではなく、用途ごとに最適化したスポークの集合と、それを選ぶルーターとして作っています。そして、どのスポークにも当たらない質問には、汎用の検索で答えつつ、期待値を明示します。リーダーは「汎用で高精度」を約束せず、「重点用途は高精度、それ以外は探す手助け」と期待値を分けて合意します。</p></div></details></section>
+<section class="slide" id="s109" data-n="109"><img src="slides/s109.webp" loading="lazy" width="1920" height="1080" alt="対象の規模・範囲別の設計指針"><details><summary>スライド 109 のテキストと解説</summary><div class="tx">対象の規模・範囲別の設計指針
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+規模と範囲が広がるほど、検索の工夫より「分割・ルーティング・権限・評価の運用」が支配的になる
+範囲（文書数の目安） | 推奨構成 | 索引の持ち方 | 評価 | 主なリスク
+単一ユースケース（〜数千） | ハイブリッド＋再ランキング、構造化取込 | 同期型 1 つ | 用途の評価セットで最適化 | 過剰な機構（グラフ・エージェント）
+部門横断（数万〜数十万） | ソース種別ごとの取込＋ルーター | 同期型を種類ごとに分割 | ユースケース×質問型の層別 | 規模による劣化、表記ゆれ、権限
+全社（数百万〜） | ハブ＆スポーク、エージェントは複雑な質問だけ | 同期型＋連合型の併用 | スポーク単位＋全体の監視 | 過剰共有、汚染、鮮度、運用体制
+文書数の区切りは議論のための目安で、厳密な閾値ではない。自社のコーパスで劣化曲線を測って判断する
+109</div><div class="nt"><b>解説</b><p>対象の規模と範囲ごとの設計の目安です。文書数の区切りは厳密な閾値ではなく、議論のための目安です。単一ユースケースでは、ハイブリッド検索と再ランキングと評価セットで、測って最適化できます。部門横断になると、ソースの種類ごとの取込と、ルーター、ユースケース別の評価セットが必要になり、劣化曲線の測定が欠かせません。全社規模では、同期型と連合型の併用、権限の棚卸し、スポーク単位の運用体制、フィードバックの経路が主な課題になり、検索アルゴリズムの選択は相対的に小さな論点になります。各段階で事例と根拠に挙げたのは、本 Part のスライドの出典です。</p></div></details></section>
+<section class="slide" id="s110" data-n="110"><img src="slides/s110.webp" loading="lazy" width="1920" height="1080" alt="Advanced RAG を語るための 7 つの持論（根拠付き）"><details><summary>スライド 110 のテキストと解説</summary><div class="tx">Advanced RAG を語るための 7 つの持論（根拠付き）
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+会議で問われたときに、根拠を添えて言い切れる形にまとめた
+1
+RAG の失敗は、まず検索とデータを疑う
+NVIDIA FACTS、Seven Failure Points、BRIGHT
+2
+初期構成はハイブリッド＋ドメインで検証した再ランキング
+BRIGHT、ACL 2021、Anthropic Contextual Retrieval
+3
+文脈は多いほど良いわけではない。k は測って決める
+Lost in the Middle、Long-Context LLMs Meet RAG、Databricks
+4
+質問の型で振り分ける（集計・全体要約・事実・複雑さ）
+GraphRAG、Adaptive-RAG、Radar の Text to SQL Hold
+5
+権限は検索前に効かせ、取得文書は信頼しない
+OWASP LLM08、PoisonedRAG
+6
+コーパスは育つほど劣化する。規模を変えて測る
+ACL 2021、Onyx
+7
+全社基盤ではなく 1 ユースケースの評価セットから
+Seven Failure Points、Uber、パナソニック コネクト
+110</div><div class="nt"><b>解説</b><p>テックリードが会議で自信を持って言えるように、7 つの持論にまとめました。それぞれの根拠は括弧内の資料です。1 つ目、RAG の失敗はまず検索とデータを疑う。2 つ目、初期構成はハイブリッド検索と、ドメインで検証した再ランキング。3 つ目、文脈は多いほど良いわけではなく、k はモデルとタスクで測って決める。4 つ目、質問の型で振り分け、集計は構造化検索、全体要約はグラフ系、事実は RAG、単純な質問にエージェントは使わない。5 つ目、権限は検索の前に効かせ、取得した文書は信頼しない。6 つ目、コーパスは育つほど劣化するので、規模を変えて測ってから全量を入れる。7 つ目、全社基盤ではなく、1 つのユースケースの評価セットから始め、品質は運用で育てる。</p></div></details></section>
+<section class="slide" id="s111" data-n="111"><img src="slides/s111.webp" loading="lazy" width="1920" height="1080" alt="自己診断チェックリスト：アンチパターンに陥っていないか"><details><summary>スライド 111 のテキストと解説</summary><div class="tx">自己診断チェックリスト：アンチパターンに陥っていないか
+取込
+検索
+順位付け
+生成
+評価
+運用・安全
+補足
+「いいえ」が付いた項目が、次の打ち手の候補。定例のレビューで 1 か月に 1 回見直す
+対象のユースケースと評価セットがある
+質問の型（事実・列挙・要約・多段）を数えた
+ソースの種類ごとに取込を分けている
+ハイブリッド検索を持っている
+再ランキングをドメインの評価で選んだ
+k を測って決めた
+根拠が足りないときに答えない経路がある
+権限を検索前に効かせている
+版・有効期間を索引に持つ
+規模を変えて劣化を測った
+取得文書の命令を実行しない
+低評価の回答を評価セットに戻している
+111</div><div class="nt"><b>解説</b><p>プロジェクトの健康診断に使うチェックリストです。12 項目のうち「いいえ」が付いた項目が、次に手を打つ候補です。定例のレビューで月に 1 回見直すことを勧めます。特に、質問の型を数えたか、規模を変えて劣化を測ったか、権限を検索前に効かせているかの 3 つは、後から直すと高くつきます。</p></div></details></section>
+<section class="slide" id="s112" data-n="112"><img src="slides/s112.webp" loading="lazy" width="1920" height="1080" alt="Part 7 の主要出典"><details><summary>スライド 112 のテキストと解説</summary><div class="tx">Part 7 の主要出典
+論文：NVIDIA FACTS(arXiv:2407.07858)／Seven Failure Points(arXiv:2401.05856)／BRIGHT(arXiv:2407.12883)／Drowning in Documents(arXiv:2411.11767)／Lost in the Middle(arXiv:2307.03172)／Long-Context LLMs Meet RAG(arXiv:2410.05983)／Sufficient Context(arXiv:2411.06037)／Adaptive-RAG(arXiv:2403.14403)／GraphRAG(arXiv:2404.16130)／Judging LLM-as-a-Judge(arXiv:2306.05685)／Is Semantic Chunking Worth It?(arXiv:2410.13070)／OHRBench(arXiv:2412.02592)／Reimers &amp; Gurevych(arXiv:2012.14210)／PoisonedRAG(arXiv:2402.07867)／Greshake et al.(arXiv:2302.12173)／LinkedIn KG-RAG(arXiv:2404.17723)
+実務・ベンダー：Anthropic Contextual Retrieval・multi-agent research system／Microsoft Research LazyGraphRAG／Databricks Long Context RAG／Chroma Context Rot／Onyx Retrieval corpus scaling／OWASP LLM08:2025／Weaviate Filtering／Thoughtworks Technology Radar Vol.32〜35
+事例：Glean／Microsoft 365 Copilot(Learn)／Google Gemini Enterprise／Amazon Q Business／Dropbox Dash／Slack／Notion／Uber Enhanced Agentic RAG／Pinterest Text-to-SQL／Grab Hubble／DoorDash／パナソニック コネクト／DeNA Findout／富士通／メルカリ／Claude Code(Boris Cherny, X)／Cursor Semantic search
+112</div><div class="nt"><b>解説</b><p>Part 7 で参照した主な資料です。ベンダーの自己申告や二次情報は、各スライドのノートで区別しています。</p></div></details></section>
+<section class="slide" id="s113" data-n="113"><img src="slides/s113.webp" loading="lazy" width="1920" height="1080" alt="未解決点と証拠の限界"><details><summary>スライド 113 のテキストと解説</summary><div class="tx">未解決点と証拠の限界
 取込
 検索
 順位付け
@@ -2059,8 +2496,8 @@ Hybrid・再ランキング・グラフ・Agent・圧縮を重ねた効果は、
 引用付与・自己評価・グラフ化だけで正確性や安全性が保証される根拠は確認できない
 リーダーの視点
 これらをリスクとしてプロジェクト計画に明記し、検証タスクと担当を割り当てる
-91</div><div class="nt"><b>解説</b><p>元レポートが挙げる4つの限界です。日本語の専門業務については、英語中心のベンチマークでは省略表現、社内語彙、表記ゆれ、法令の時点差に対する効果量は確定できません。方式の合成効果は、個別論文の改善率を足し算しても推定できません。過去モデルで有効だった前処理や自己評価が新モデルでも効くとは限らず、モデル更新のたびに再評価が必要です。安全性については、引用を付ける、自己評価を足す、グラフ化するだけで正確性や安全性が保証される根拠はありません。リーダーはこれらを「リスク」としてプロジェクト計画に明記し、検証タスクを割り当ててください。</p></div></details></section>
-<section class="slide" id="s92" data-n="92"><img src="slides/s092.webp" loading="lazy" width="1920" height="1080" alt="総括"><details><summary>スライド 92 のテキストと解説</summary><div class="tx">総括
+113</div><div class="nt"><b>解説</b><p>元レポートが挙げる4つの限界です。日本語の専門業務については、英語中心のベンチマークでは省略表現、社内語彙、表記ゆれ、法令の時点差に対する効果量は確定できません。方式の合成効果は、個別論文の改善率を足し算しても推定できません。過去モデルで有効だった前処理や自己評価が新モデルでも効くとは限らず、モデル更新のたびに再評価が必要です。安全性については、引用を付ける、自己評価を足す、グラフ化するだけで正確性や安全性が保証される根拠はありません。リーダーはこれらを「リスク」としてプロジェクト計画に明記し、検証タスクを割り当ててください。</p></div></details></section>
+<section class="slide" id="s114" data-n="114"><img src="slides/s114.webp" loading="lazy" width="1920" height="1080" alt="総括"><details><summary>スライド 114 のテキストと解説</summary><div class="tx">総括
 最も高度な方式を選ぶのではなく、
 実測した失敗原因に対して最小限の追加機構を選ぶ
 1. 測る
@@ -2072,7 +2509,7 @@ Adopt の基盤 → 該当する Trial を1つずつ
 4. 代償も確認する
 費用・遅延・新たな故障モード・安全性
 Advanced RAG の進展は「検索器の強化」に留まらず、検索対象の表現・読取粒度・探索順序・停止判断・評価範囲の拡張にある。一方、高度な分割・グラフ化・反復検索がすべての質問で有利になるわけではない。</div><div class="nt"><b>解説</b><p>元レポートの総括です。Advanced RAGの技術的な進展は、検索器の強化だけでなく、検索対象の表現、読取粒度、探索順序、停止判断、評価範囲を拡張する方向にあります。一方で最新の比較研究は、高度な分割・グラフ化・反復検索がすべての質問で有利になるわけではないことも示しています。採用の中心原則は、実測した失敗原因に対して最小限の追加機構を選ぶことです。検索・読解・引用・権限・鮮度を分離して測り、改善と引き換えのコストや新たな故障モードまで確認できる設計を目指してください。</p></div></details></section>
-<section class="slide" id="s93" data-n="93"><img src="slides/s093.webp" loading="lazy" width="1920" height="1080" alt="付録：用語集①"><details><summary>スライド 93 のテキストと解説</summary><div class="tx">付録：用語集①
+<section class="slide" id="s115" data-n="115"><img src="slides/s115.webp" loading="lazy" width="1920" height="1080" alt="付録：用語集①"><details><summary>スライド 115 のテキストと解説</summary><div class="tx">付録：用語集①
 用語 | 意味
 RAG | Retrieval-Augmented Generation。検索した文書を根拠として LLM に回答させる構成
 チャンク | 索引化・検索の単位に分割した文書の断片
@@ -2084,8 +2521,8 @@ RRF | Reciprocal Rank Fusion。順位の逆数の和で複数の検索結果を�
 再ランキング | 候補をクロスエンコーダ等で精密に並べ替える後段処理
 Late Interaction | トークン単位の複数ベクトルで照合する方式（ColBERT、ColPali）
 ANN | 近似最近傍探索。HNSW・IVF 等で高速に近いベクトルを探す
-93</div><div class="nt"><b>解説</b><p>本資料で使った主要用語の定義です。略語はチーム内で意味を揃えておくと議論が速くなります。</p></div></details></section>
-<section class="slide" id="s94" data-n="94"><img src="slides/s094.webp" loading="lazy" width="1920" height="1080" alt="付録：用語集②"><details><summary>スライド 94 のテキストと解説</summary><div class="tx">付録：用語集②
+115</div><div class="nt"><b>解説</b><p>本資料で使った主要用語の定義です。略語はチーム内で意味を揃えておくと議論が速くなります。</p></div></details></section>
+<section class="slide" id="s116" data-n="116"><img src="slides/s116.webp" loading="lazy" width="1920" height="1080" alt="付録：用語集②"><details><summary>スライド 116 のテキストと解説</summary><div class="tx">付録：用語集②
 用語 | 意味
 親子検索 | 小さな単位で検索し、親セクションを読む方式（Small-to-Big）
 Contextual Retrieval | チャンクに LLM 生成の文脈説明を前置してから索引化する方式
@@ -2098,16 +2535,16 @@ Oracle Context | 正解根拠を直接与える評価条件。読解側の上限
 Recall@k ／ nDCG ／ MRR | 候補の網羅性／順位の質／最初の正解の順位
 EM ／ F1 ／ 忠実性 | 完全一致／単語重なり／回答が根拠に支持される度合い
 ACL | Access Control List。文書ごとの閲覧権限
-94</div><div class="nt"><b>解説</b><p>用語集の続きです。</p></div></details></section>
-<section class="slide" id="s95" data-n="95"><img src="slides/s095.webp" loading="lazy" width="1920" height="1080" alt="付録：主要出典①"><details><summary>スライド 95 のテキストと解説</summary><div class="tx">付録：主要出典①
+116</div><div class="nt"><b>解説</b><p>用語集の続きです。</p></div></details></section>
+<section class="slide" id="s117" data-n="117"><img src="slides/s117.webp" loading="lazy" width="1920" height="1080" alt="付録：主要出典①"><details><summary>スライド 117 のテキストと解説</summary><div class="tx">付録：主要出典①
 サーベイ：Huang &amp; Huang, ACM Computing Surveys（dl.acm.org/doi/10.1145/3805774）／Scaling Beyond Context（ACL 2026）／Retrieved But Not Reliable（arXiv:2608.24977）
 検索：BEIR（arXiv:2104.08663）／BRIGHT（arXiv:2407.12883）／BGE-M3（arXiv:2402.03216）／ColBERTv2（arXiv:2112.01488）／RRF（Cormack et al., SIGIR 2009）
 チャンク・文脈：Anthropic Contextual Retrieval（anthropic.com/research/contextual-retrieval）／Late Chunking（arXiv:2409.04701）／Beyond Chunk-Then-Embed（arXiv:2602.16974）
 クエリ：HyDE（arXiv:2212.10496）
 階層・グラフ：RAPTOR（arXiv:2401.18059）／GraphRAG（arXiv:2404.16130、microsoft.github.io/graphrag）／LightRAG（arXiv:2410.05779）／HippoRAG 2（arXiv:2502.14802）／HopRAG（arXiv:2502.12442）／RAGSearch（arXiv:2604.09666）
 Agentic：Self-RAG（ICLR 2024）／Corrective RAG（arXiv:2401.15884）／A-RAG（arXiv:2602.03442）／AgenticRAGTracer（Findings of ACL 2026）
-95</div><div class="nt"><b>解説</b><p>元レポートが参照した一次資料のうち、本資料で言及した主なものです。URLは元レポートを参照してください。</p></div></details></section>
-<section class="slide" id="s96" data-n="96"><img src="slides/s096.webp" loading="lazy" width="1920" height="1080" alt="付録：主要出典②"><details><summary>スライド 96 のテキストと解説</summary><div class="tx">付録：主要出典②
+117</div><div class="nt"><b>解説</b><p>元レポートが参照した一次資料のうち、本資料で言及した主なものです。URLは元レポートを参照してください。</p></div></details></section>
+<section class="slide" id="s118" data-n="118"><img src="slides/s118.webp" loading="lazy" width="1920" height="1080" alt="付録：主要出典②"><details><summary>スライド 118 のテキストと解説</summary><div class="tx">付録：主要出典②
 学習：RAFT（arXiv:2403.10131）／Search-R1（arXiv:2503.09516）
 マルチモーダル・表：ColPali（arXiv:2407.01449）／T²-RAGBench（EACL 2026）
 長文・圧縮：Lost in the Middle（arXiv:2307.03172）／Long Context vs. RAG（arXiv:2501.01880）／LLMLingua-2（arXiv:2403.12968）
@@ -2115,7 +2552,7 @@ Agentic：Self-RAG（ICLR 2024）／Corrective RAG（arXiv:2401.15884）／A-RAG
 セキュリティ：PoisonedRAG（USENIX Security 2025）
 実務：Thoughtworks Technology Radar（RAG、Docling）
 本資料の補足で参照：Barnett et al., Seven Failure Points When Engineering a RAG System（CAIN 2024, arXiv:2401.05856）／Ruri: Japanese General Text Embeddings（arXiv:2409.07737）・cl-nagoya/ruri-v3 モデルカード／JMTEB
-96</div><div class="nt"><b>解説</b><p>出典の続きと、本資料で補足として追加した資料です。</p></div></details></section></main>
+118</div><div class="nt"><b>解説</b><p>出典の続きと、本資料で補足として追加した資料です。</p></div></details></section></main>
   <footer><p>本資料と合成コーパスは CC BY 4.0、コードは MIT ライセンスです。本資料は生成AI（Claude）を使って作成し、筆者が確認して公開しています。</p></footer>
   <script>
   const S=[...document.querySelectorAll('.slide')];let i=0;const pos=document.getElementById('pos');
