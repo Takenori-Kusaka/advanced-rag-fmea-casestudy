@@ -27,6 +27,7 @@
 | [05_rag-antipatterns-evidence.md](notes/05_rag-antipatterns-evidence.md) | 前提編 Part 7 | RAG のアンチパターンと、その根拠になる論文・実務報告 |
 | [06_enterprise-wide-rag-cases.md](notes/06_enterprise-wide-rag-cases.md) | 前提編 Part 7 | 全社横断 RAG の製品設計と自社構築の事例（国内外） |
 | [07_chunk-size-long-context.md](notes/07_chunk-size-long-context.md) | 前提編 2-A | チャンク長の評価（2024〜2026）と、長文コンテキスト時代の見直し、各社の既定値 |
+| [08_contextual-headers-tables-metadata.md](notes/08_contextual-headers-tables-metadata.md) | 前提編 2-A | チャンクに付ける文脈：表ヘッダ・「列名: 値」、文脈の文量、メタデータを本文に混ぜるかフィルタに分けるか |
 
 ### reviews/：スライドの査読記録
 
