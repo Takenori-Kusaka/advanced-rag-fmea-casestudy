@@ -2,8 +2,11 @@
 
 FMEA 作成支援 RAG を題材に、「どのデータに、どの Advanced RAG の打ち手が、どれだけ効くか」を、WSL2 上の OpenSearch で段階的に実測したケーススタディです。
 
-- Web スライド（76 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/
+- 実践編 Web スライド（76 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/
+- 前提編「Advanced RAG 実践ガイド」Web スライド（96 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/guide/
 - スライド（PDF / PPTX）: [`slides/`](slides/)
+
+前提編は、Naive RAG を学び始めた技術者向けに、Advanced RAG を「失敗原因 → 対策」の対応で整理し、評価・安全・運用・テックリーダーの実務までをまとめた解説です。実践編はその考え方を FMEA 作成支援の具体的なデータに当てはめ、実測で確かめたものです。
 
 > 本リポジトリのコード・文章・スライドは、生成AI（Claude）を使って作成し、筆者が確認して公開しています。
 
@@ -38,8 +41,8 @@ corpus/   合成コーパス（Word・PDF・スキャン PDF・Excel・CSV、24 
 gen/      生成・取込・チャンク化・索引・評価のスクリプトと評価セット（gold.json）
 results/  実測結果（JSON）とカテゴリ別の集計
 deck/     スライドの生成スクリプト（pptxgenjs）と図
-slides/   スライド（PPTX / PDF）
-docs/     Web スライド（GitHub Pages）
+slides/   スライド（実践編・前提編の PPTX / PDF）
+docs/     Web スライド（GitHub Pages。前提編は docs/guide/）
 docker/   kuromoji・ICU 入りの OpenSearch イメージ
 tools/    Web スライドの生成
 ```
