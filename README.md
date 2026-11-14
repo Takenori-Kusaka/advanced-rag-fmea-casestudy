@@ -41,7 +41,9 @@ FMEA 作成支援 RAG を題材に、「どのデータに、どの Advanced RAG
 corpus/   合成コーパス（Word・PDF・スキャン PDF・Excel・CSV、24 ファイル）
 gen/      生成・取込・チャンク化・索引・評価のスクリプトと評価セット（gold.json）
 results/  実測結果（JSON）とカテゴリ別の集計
-deck/     スライドの生成スクリプト（pptxgenjs）と図
+deck/        実践編スライドの生成スクリプト（pptxgenjs）と図
+guide-deck/  前提編スライドの生成スクリプト
+research/    調査資料・調査のまとめ・スライドの査読記録（research/README.md）
 slides/   スライド（実践編・前提編の PPTX / PDF）
 docs/     Web スライド（GitHub Pages。前提編は docs/guide/）
 docker/   kuromoji・ICU 入りの OpenSearch イメージ
