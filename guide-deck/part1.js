@@ -44,25 +44,26 @@ module.exports = (L) => {
 
   // ---------- Agenda ----------
   {
-    const s = L.content('全体の構成', { lead: '基礎の総点検 → 全体像 → 手法各論 → 評価 → 安全・運用 → 設計とロードマップ → リーダー実務', notes: '前半で共通言語（指標・失敗の分類）を固め、手法各論はパイプラインの上流から下流へ順に進みます。評価と安全・運用は「後で考えるもの」ではなく、手法選定より先に設計すべきものとして独立したPartにしています。最後にテックリーダーとしての実務（最初の90日、合意形成、アンチパターン）を補足します。' });
+    const s = L.content('全体の構成', { lead: '基礎 → 全体像 → 手法各論 → 評価 → 安全・運用 → 設計 → リーダー実務 → アンチパターン大全', notes: '前半で共通言語（指標・失敗の分類）を固め、手法各論はパイプラインの上流から下流へ順に進みます。評価と安全・運用は「後で考えるもの」ではなく、手法選定より先に設計すべきものとして独立したPartにしています。続いてテックリーダーとしての実務（最初の90日、合意形成）を扱い、最後の Part 7 で、データ・検索・システムと規模のアンチパターンと、全社横断 RAG の事例をまとめます。' });
     const parts = [
       ['Part 0', '基礎の総点検', 'Naive RAG・埋め込み・BM25・失敗点', 'MdSchool'],
       ['Part 1', '全体像と証拠の読み方', '4段階の整理・診断表・指標', 'MdInsights'],
-      ['Part 2', '手法各論', '取込／検索／クエリ／構造／Agentic／学習／マルチモーダル／長文', 'MdTune'],
+      ['Part 2', '手法各論', '取込・検索・クエリ・構造・Agentic・学習・長文', 'MdTune'],
       ['Part 3', '評価', '層別指標・実験手順・評価セット', 'MdFactCheck'],
       ['Part 4', 'セキュリティ・運用・費用', '権限・汚染・鮮度・コストモデル', 'MdShield'],
       ['Part 5', '参照設計とロードマップ', 'コンポーネント・採用レーダー・導入段階', 'MdAccountTree'],
-      ['Part 6', 'テックリーダーの実践', '90日計画・合意形成・アンチパターン', 'MdFlag'],
+      ['Part 6', 'テックリーダーの実践', '90日計画・合意形成・アンチパターン集', 'MdFlag'],
+      ['Part 7', 'アンチパターン大全', '3 層の失敗・規模の罠・全社横断 RAG の事例', 'MdReportProblem'],
       ['付録', '用語集・出典', '用語の定義と一次資料', 'MdMenuBook'],
     ];
     parts.forEach((p, i) => {
       const col = i % 2, row = Math.floor(i / 2);
-      const x = 0.6 + col * 6.15, y = 2.0 + row * 1.15;
-      s.addShape(SH.ROUNDED_RECTANGLE, { x, y, w: 5.95, h: 0.98, rectRadius: 0.08, fill: { color: C.background2 }, line: { color: C.background2 } });
-      L.icon(s, p[3], x + 0.18, y + 0.2, 0.58, i === 6 ? C.accent2 : C.accent1);
+      const x = 0.6 + col * 6.15, y = 1.95 + row * 0.98;
+      s.addShape(SH.ROUNDED_RECTANGLE, { x, y, w: 5.95, h: 0.86, rectRadius: 0.08, fill: { color: C.background2 }, line: { color: C.background2 } });
+      L.icon(s, p[3], x + 0.18, y + 0.14, 0.58, i >= 6 && i <= 7 ? C.accent2 : C.accent1);
       L.T(s, p[0], { x: x + 0.95, y: y + 0.12, w: 0.9, h: 0.35, fontSize: 13, bold: true, color: C.accent1, margin: 0 });
       L.T(s, p[1], { x: x + 1.85, y: y + 0.1, w: 4.0, h: 0.38, fontSize: 16, bold: true, margin: 0 });
-      L.T(s, p[2], { x: x + 0.95, y: y + 0.5, w: 4.9, h: 0.4, fontSize: 12, color: MUTED, margin: 0 });
+      L.T(s, p[2], { x: x + 0.95, y: y + 0.46, w: 4.9, h: 0.36, fontSize: 12, color: MUTED, margin: 0 });
     });
   }
 
