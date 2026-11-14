@@ -4,6 +4,7 @@ FMEA 作成支援 RAG を題材に、「どのデータに、どの Advanced RAG
 
 - 実践編 Web スライド（76 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/
 - 前提編「Advanced RAG 実践ガイド」Web スライド（96 枚）: https://takenori-kusaka.github.io/advanced-rag-fmea-casestudy/guide/
+- Docswell: [実践編](https://www.docswell.com/s/takenori_kusaka/59NPMW-advanced-rag-fmea-casestudy) / [前提編](https://www.docswell.com/s/takenori_kusaka/ZPR1GG-advanced-rag-practical-guide)
 - スライド（PDF / PPTX）: [`slides/`](slides/)
 
 前提編は、Naive RAG を学び始めた技術者向けに、Advanced RAG を「失敗原因 → 対策」の対応で整理し、評価・安全・運用・テックリーダーの実務までをまとめた解説です。実践編はその考え方を FMEA 作成支援の具体的なデータに当てはめ、実測で確かめたものです。
