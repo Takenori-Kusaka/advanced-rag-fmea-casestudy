@@ -1,0 +1,12 @@
+# Python 3.12. torch with CUDA is recommended for embedding / reranking (install it first from pytorch.org)
+sentence-transformers>=3
+transformers>=4.48
+opensearch-py
+python-docx
+openpyxl
+pymupdf
+pillow
+pandas
+sentencepiece
+protobuf
+# OCR (optional, non-commercial licence CC BY-NC-SA 4.0): yomitoku

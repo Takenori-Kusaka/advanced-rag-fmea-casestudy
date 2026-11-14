@@ -1,0 +1,121 @@
+config                                  C1    C2    C3    C4    C5    C6    C7    C8  ALL
+C0 ファイル参照（1ファイル丸ごと）                    2/8   2/8   6/6   0/6   1/5   5/5   1/4   2/6 19/48
+C1 素朴RAG（固定長・Dense）                    3/8   2/8   4/6   0/6   2/5   5/5   1/4   1/6 18/48
+C1b 素朴チャンク＋ハイブリッド                      2/8   2/8   5/6   0/6   3/5   5/5   1/4   2/6 20/48
+C2 構造化取込（Dense）                        2/8   7/8   1/6   2/6   3/5   4/5   2/4   3/6 24/48
+C3 ＋ハイブリッド（BM25+Dense, RRF）            2/8   7/8   5/6   2/6   2/5   3/5   4/4   3/6 28/48
+C4 ＋文脈付与・型式正規化                         7/8   8/8   2/6   4/6   4/5   5/5   4/4   3/6 37/48
+C5 ＋参照グラフ（符号・付表）                       7/8   8/8   5/6   4/6   4/5   5/5   4/4   3/6 40/48
+C6 ＋再ランキング                             8/8   8/8   6/6   5/6   4/5   5/5   4/4   4/6 44/48
+C7 ＋親子展開（表は表ごと読む）                      7/8   8/8   6/6   5/6   4/5   5/5   4/4   4/6 43/48
+C8 ＋参照追跡（枠内で置換）                        7/8   8/8   6/6   5/6   4/5   5/5   4/4   4/6 43/48
+C8b ＋参照追跡（枠を+2拡張）                      7/8   8/8   6/6   5/6   4/5   5/5   4/4   4/6 43/48
+
+-- per-question answerable (1/0) --
+C1-1   ~o~-~ooo~~~
+C1-2   ----~oooooo
+C1-3   -~~--oooooo
+C1-4   ooooooooooo
+C1-5   -~---oooooo
+C1-6   ~-~~~~~oooo
+C1-7   -~~--oooooo
+C1-8   ooooooooooo
+C2-1   ~--oooooooo
+C2-2   ~--oooooooo
+C2-3   ~--o-oooooo
+C2-4   ---oooooooo
+C2-5   ---oooooooo
+C2-6   ooooooooooo
+C2-7   ---~ooooooo
+C2-8   ooooooooooo
+C3-1   o-----ooooo
+C3-2   o~o-o-ooooo
+C3-3   ooo-ooooooo
+C3-4   ooo-o--oooo
+C3-5   ooo-o-ooooo
+C3-6   ooooooooooo
+C4-1   ---oooooooo
+C4-2   -------oooo
+C4-3   ~~~-~oooooo
+C4-4   -----oooooo
+C4-5   -----------
+C4-6   ---oooooooo
+C5-1   -~~~~~~~~~~
+C5-2   ooooooooooo
+C5-3   ~-~o~oooooo
+C5-4   -oooooooooo
+C5-5   --o--oooooo
+C6-1   ooooooooooo
+C6-2   ooooooooooo
+C6-3   ooooooooooo
+C6-4   oooo-oooooo
+C6-5   ooo--oooooo
+C7-1   ---oooooooo
+C7-2   ----ooooooo
+C7-3   ----ooooooo
+C7-4   ooooooooooo
+C8-1   ~~~-~~~oooo
+C8-2   ~~~--~~~~~~
+C8-3   ~~~--~~oooo
+C8-4   ooooooooooo
+C8-5   ---oooo~~-~
+C8-6   o-ooooooooo
+
+-- C6 vs C7 changes --
+
+-- C0 chosen files --
+C1-1 False ['2_通信マニュアル共通編_MAN-COM-01.pdf'] 1579
+C1-2 False ['2_通信マニュアル共通編_MAN-COM-01.pdf'] 1579
+C1-3 False ['2_取扱説明書_MDA-120.pdf'] 1067
+C1-4 True ['2_通信マニュアル共通編_MAN-COM-01.pdf'] 1579
+C1-5 False ['2_取扱説明書_MDC-500.pdf'] 1066
+C1-6 False ['2_通信マニュアル共通編_MAN-COM-01.pdf'] 1579
+C1-7 False ['2_通信マニュアル共通編_MAN-COM-01.pdf'] 1579
+C1-8 True ['2_通信マニュアル_MAN-CAN-01.pdf'] 322
+C2-1 False ['3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx'] 2782
+C2-2 False ['3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx'] 2782
+C2-3 False ['3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx'] 2680
+C2-4 False ['3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx'] 2681
+C2-5 False ['3_過去DRBFM_DRBFM-MDB310-01.xlsx'] 774
+C2-6 True ['3_過去DRBFM_DRBFM-MDB310-01.xlsx'] 774
+C2-7 False ['3_過去DRBFM_DRBFM-MDB310-01.xlsx'] 774
+C2-8 True ['2_BOM_MDA-200-B.xlsx'] 338
+C3-1 True ['6_特許_特開2025-012345_コネクタ.pdf'] 974
+C3-2 True ['6_特許_特開2025-012345_コネクタ.pdf'] 974
+C3-3 True ['6_特許_特開2024-087654_放熱.pdf'] 424
+C3-4 True ['6_特許_特開2025-012345_コネクタ.pdf'] 974
+C3-5 True ['6_特許_特開2024-087654_放熱.pdf'] 424
+C3-6 True ['6_特許_特開2025-012345_コネクタ.pdf'] 974
+C4-1 False ['3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx'] 2782
+C4-2 False ['4_不具合DB_export.csv'] 27819
+C4-3 False ['4_不具合DB_export.csv'] 27819
+C4-4 False ['4_不具合DB_export.csv'] 27819
+C4-5 False ['3_過去DRBFM_DRBFM-MDB310-01.xlsx'] 774
+C4-6 False ['5_設計基準_SK-001_コネクタ.docx'] 825
+C5-1 False ['6_サービスニュース_SN-2025-03.docx'] 246
+C5-2 True ['3_過去DRBFM_DRBFM-MDB310-01.xlsx'] 774
+C5-3 False ['4_不具合DB_export.csv'] 27819
+C5-4 False ['5_品質保証規程_QP-07_FMEA手順.docx'] 424
+C5-5 False ['6_サービスニュース_SN-2025-03.docx'] 246
+C6-1 True ['5_設計基準_SK-001_コネクタ.docx'] 825
+C6-2 True ['5_設計基準_SK-001_コネクタ.docx'] 825
+C6-3 True ['5_設計基準_SK-001_コネクタ.docx'] 825
+C6-4 True ['5_設計基準_SK-001_コネクタ.docx'] 825
+C6-5 True ['5_品質保証規程_QP-07_FMEA手順.docx'] 424
+C7-1 False ['2_設計仕様書_SPEC-MDA200-B.docx'] 741
+C7-2 False ['2_設計仕様書_SPEC-MDA200-B.docx'] 741
+C7-3 False ['2_設計仕様書_SPEC-MDA200-B.docx'] 741
+C7-4 True ['2_設計仕様書_SPEC-MDA200-B.docx'] 741
+C8-1 False ['1_製品企画書_PJ-2025-018.docx'] 824
+C8-2 False ['1_製品企画書_PJ-2025-018.docx'] 824
+C8-3 False ['2_設計仕様書_SPEC-MDA200-B.docx'] 741
+C8-4 True ['1_製品企画書_PJ-2025-018.docx'] 824
+C8-5 False ['3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx'] 2782
+C8-6 True ['6_サービスニュース_SN-2025-03.docx'] 246
+
+-- C6 failures --
+C1-1 [True, True, False] ['MAN-COM-01', 'MAN-COM-01', 'FMEA-MDA120-03', 'SK-001', 'CR-2025-07']
+C4-5 [False] ['TR-2024-033', 'TR-2024-033', 'DRBFM-MDB310-01', 'SK-001', '特開2025-012345']
+C5-1 [True, False, False] ['SN-2025-03', '不具合DB', 'MAN-MDA-200', 'MAN-COM-01', 'CR-2025-07']
+C8-2 [True, False] ['PJ-2025-018', 'PJ-2025-018', '不具合DB', '不具合DB', 'CR-2025-07']
+C8-5 [False, False] ['FMEA-MDC500-01', 'DRBFM-MDB310-01', 'FMEA-MDB300-02', 'SK-001', '特開2025-012345']

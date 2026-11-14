@@ -1,0 +1,9764 @@
+{
+ "C0 ファイル参照（1ファイル丸ごと）": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    true,
+    false
+   ],
+   "files": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf"
+   ],
+   "chars": 1579
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf"
+   ],
+   "chars": 1579
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "2_取扱説明書_MDA-120.pdf"
+   ],
+   "chars": 1067
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf"
+   ],
+   "chars": 1579
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "2_取扱説明書_MDC-500.pdf"
+   ],
+   "chars": 1066
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "files": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf"
+   ],
+   "chars": 1579
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf"
+   ],
+   "chars": 1579
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "2_通信マニュアル_MAN-CAN-01.pdf"
+   ],
+   "chars": 322
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "files": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx"
+   ],
+   "chars": 2782
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "files": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx"
+   ],
+   "chars": 2782
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "files": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx"
+   ],
+   "chars": 2680
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx"
+   ],
+   "chars": 2681
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx"
+   ],
+   "chars": 774
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx"
+   ],
+   "chars": 774
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx"
+   ],
+   "chars": 774
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "2_BOM_MDA-200-B.xlsx"
+   ],
+   "chars": 338
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "6_特許_特開2025-012345_コネクタ.pdf"
+   ],
+   "chars": 974
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "6_特許_特開2025-012345_コネクタ.pdf"
+   ],
+   "chars": 974
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "6_特許_特開2024-087654_放熱.pdf"
+   ],
+   "chars": 424
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "6_特許_特開2025-012345_コネクタ.pdf"
+   ],
+   "chars": 974
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "6_特許_特開2024-087654_放熱.pdf"
+   ],
+   "chars": 424
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "6_特許_特開2025-012345_コネクタ.pdf"
+   ],
+   "chars": 974
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx"
+   ],
+   "chars": 2782
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "4_不具合DB_export.csv"
+   ],
+   "chars": 27819
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "files": [
+    "4_不具合DB_export.csv"
+   ],
+   "chars": 27819
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "4_不具合DB_export.csv"
+   ],
+   "chars": 27819
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx"
+   ],
+   "chars": 774
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "5_設計基準_SK-001_コネクタ.docx"
+   ],
+   "chars": 825
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false,
+    false
+   ],
+   "files": [
+    "6_サービスニュース_SN-2025-03.docx"
+   ],
+   "chars": 246
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx"
+   ],
+   "chars": 774
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "files": [
+    "4_不具合DB_export.csv"
+   ],
+   "chars": 27819
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "5_品質保証規程_QP-07_FMEA手順.docx"
+   ],
+   "chars": 424
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "6_サービスニュース_SN-2025-03.docx"
+   ],
+   "chars": 246
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "5_設計基準_SK-001_コネクタ.docx"
+   ],
+   "chars": 825
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "5_設計基準_SK-001_コネクタ.docx"
+   ],
+   "chars": 825
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "5_設計基準_SK-001_コネクタ.docx"
+   ],
+   "chars": 825
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "5_設計基準_SK-001_コネクタ.docx"
+   ],
+   "chars": 825
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "5_品質保証規程_QP-07_FMEA手順.docx"
+   ],
+   "chars": 424
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "2_設計仕様書_SPEC-MDA200-B.docx"
+   ],
+   "chars": 741
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "2_設計仕様書_SPEC-MDA200-B.docx"
+   ],
+   "chars": 741
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "files": [
+    "2_設計仕様書_SPEC-MDA200-B.docx"
+   ],
+   "chars": 741
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "files": [
+    "2_設計仕様書_SPEC-MDA200-B.docx"
+   ],
+   "chars": 741
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.3333333333333333,
+   "ok": false,
+   "hit": [
+    false,
+    false,
+    true
+   ],
+   "files": [
+    "1_製品企画書_PJ-2025-018.docx"
+   ],
+   "chars": 824
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "files": [
+    "1_製品企画書_PJ-2025-018.docx"
+   ],
+   "chars": 824
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "files": [
+    "2_設計仕様書_SPEC-MDA200-B.docx"
+   ],
+   "chars": 741
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "1_製品企画書_PJ-2025-018.docx"
+   ],
+   "chars": 824
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "files": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx"
+   ],
+   "chars": 2782
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "files": [
+    "6_サービスニュース_SN-2025-03.docx"
+   ],
+   "chars": 246
+  }
+ ],
+ "C1 素朴RAG（固定長・Dense）": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2"
+   ],
+   "docs": [
+    "MAN-MDA-200",
+    "PJ-2025-018",
+    "MAN-MDA-120",
+    "SPEC-MDA200-B",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDB-310.pdf#n0",
+    "2_取扱説明書_MDB-310.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n0"
+   ],
+   "docs": [
+    "MAN-MDB-310",
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "MAN-MDB-300",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#n0",
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n36",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-120",
+    "PJ-2025-018",
+    "不具合DB",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_取扱説明書_MDA-200.pdf#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n1",
+    "6_サービスニュース_SN-2025-03.docx#n0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "MAN-MDA-200",
+    "SPEC-MDA200-B",
+    "MAN-COM-01",
+    "SN-2025-03"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDC-500.pdf#n1",
+    "2_取扱説明書_MDC-500.pdf#n0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "2_取扱説明書_MDA-120.pdf#n1"
+   ],
+   "docs": [
+    "MAN-MDC-500",
+    "MAN-MDC-500",
+    "MAN-COM-01",
+    "MAN-MDB-300",
+    "MAN-MDA-120"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n0",
+    "2_取扱説明書_MDB-310.pdf#n1",
+    "2_取扱説明書_MDB-310.pdf#n0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDB-300",
+    "MAN-MDB-300",
+    "MAN-MDB-310",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#n0",
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n36",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-120",
+    "PJ-2025-018",
+    "不具合DB",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#n0",
+    "2_取扱説明書_MDC-500.pdf#n1",
+    "2_取扱説明書_MDC-500.pdf#n0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n1"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-MDC-500",
+    "MAN-MDC-500",
+    "MAN-COM-01",
+    "MAN-MDB-300"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "4_不具合DB_export.csv#n36",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n27"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "不具合DB",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n36",
+    "4_不具合DB_export.csv#n55",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "4_不具合DB_export.csv#n13",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "4_不具合DB_export.csv#n37",
+    "4_不具合DB_export.csv#n65"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "MAN-MDB-300",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n0",
+    "2_取扱説明書_MDC-500.pdf#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "4_不具合DB_export.csv#n0",
+    "4_不具合DB_export.csv#n62"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "MAN-MDC-500",
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "4_不具合DB_export.csv#n34",
+    "4_不具合DB_export.csv#n12",
+    "4_不具合DB_export.csv#n56",
+    "4_不具合DB_export.csv#n55"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "4_不具合DB_export.csv#n44",
+    "4_不具合DB_export.csv#n56",
+    "4_不具合DB_export.csv#n20",
+    "4_不具合DB_export.csv#n34"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n2",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n4",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2024-087654",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n2",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n3",
+    "6_特許_特開2024-087654_放熱.pdf#n0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "FMEA-MDA120-03",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n6"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2024-087654",
+    "特開2025-012345",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n6",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n1"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n3",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n2",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n2",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n5"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n49",
+    "4_不具合DB_export.csv#n7",
+    "4_不具合DB_export.csv#n22",
+    "4_不具合DB_export.csv#n38",
+    "4_不具合DB_export.csv#n43"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n49",
+    "4_不具合DB_export.csv#n7",
+    "4_不具合DB_export.csv#n28",
+    "4_不具合DB_export.csv#n45",
+    "4_不具合DB_export.csv#n18"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n1"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "SPEC-MDA200-B",
+    "FMEA-MDB300-02",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n6",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SK-001",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.3333333333333333,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n21",
+    "4_不具合DB_export.csv#n9",
+    "4_不具合DB_export.csv#n43",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n30"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "FMEA-MDC500-01",
+    "特開2025-012345",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n11",
+    "4_不具合DB_export.csv#n22",
+    "4_不具合DB_export.csv#n1",
+    "4_不具合DB_export.csv#n64",
+    "4_不具合DB_export.csv#n23"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n22",
+    "4_不具合DB_export.csv#n34",
+    "4_不具合DB_export.csv#n32",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "FMEA-MDA120-03",
+    "DRBFM-MDB310-01"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n16",
+    "4_不具合DB_export.csv#n38",
+    "4_不具合DB_export.csv#n42",
+    "4_不具合DB_export.csv#n5",
+    "4_不具合DB_export.csv#n49"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n3",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n5"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "SK-001",
+    "FMEA-MDB300-02",
+    "SK-001",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n2",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "特開2025-012345",
+    "FMEA-MDB300-02",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1"
+   ],
+   "docs": [
+    "SK-001",
+    "特開2025-012345",
+    "SK-001",
+    "特開2025-012345",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#n0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1"
+   ],
+   "docs": [
+    "QP-07",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n1",
+    "2_通信マニュアル_MAN-CAN-01.pdf#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SK-001",
+    "MAN-COM-01",
+    "MAN-CAN-01",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_BOM_MDA-200-B.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "2_BOM_MDA-200-B.xlsx",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "2_BOM_MDA-200-B.xlsx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "MAN-MDA-200",
+    "SPEC-MDA200-B",
+    "MAN-MDA-120",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_BOM_MDA-200-B.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_取扱説明書_MDA-200.pdf#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "2_BOM_MDA-200-B.xlsx",
+    "PJ-2025-018",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "6_顧客要求仕様書_CR-2025-07.docx#n0",
+    "6_サービスニュース_SN-2025-03.docx#n0",
+    "4_不具合DB_export.csv#n9",
+    "1_製品企画書_PJ-2025-018.docx#n1"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "CR-2025-07",
+    "SN-2025-03",
+    "不具合DB",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n9",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n30"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_BOM_MDA-200-B.xlsx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "SPEC-MDA200-B",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_BOM_MDA-200-B.xlsx#n0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "DRBFM-MDB310-01"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n8",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n38",
+    "4_不具合DB_export.csv#n16",
+    "1_製品企画書_PJ-2025-018.docx#n1"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "PJ-2025-018"
+   ]
+  }
+ ],
+ "C1b 素朴チャンク＋ハイブリッド": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    true,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2",
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "1_製品企画書_PJ-2025-018.docx#n0"
+   ],
+   "docs": [
+    "MAN-MDA-200",
+    "MAN-COM-01",
+    "MAN-MDA-120",
+    "MAN-MDB-300",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n0",
+    "2_取扱説明書_MDB-310.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "2_取扱説明書_MDB-310.pdf#n0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n1"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "MAN-MDB-310",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "2_取扱説明書_MDA-120.pdf#n0",
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_取扱説明書_MDA-200.pdf#n0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "PJ-2025-018",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n1",
+    "6_サービスニュース_SN-2025-03.docx#n0",
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_取扱説明書_MDA-120.pdf#n1"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "SN-2025-03",
+    "MAN-MDA-200",
+    "SPEC-MDA200-B",
+    "MAN-MDA-120"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDC-500.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "2_取扱説明書_MDC-500.pdf#n0"
+   ],
+   "docs": [
+    "MAN-MDC-500",
+    "MAN-MDB-300",
+    "MAN-MDA-200",
+    "MAN-MDA-120",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2",
+    "2_取扱説明書_MDB-300.pdf#n1",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n3",
+    "2_取扱説明書_MDB-310.pdf#n1",
+    "2_取扱説明書_MDA-120.pdf#n1"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDB-300",
+    "MAN-COM-01",
+    "MAN-MDB-310",
+    "MAN-MDA-120"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#n1",
+    "2_取扱説明書_MDA-120.pdf#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_取扱説明書_MDA-200.pdf#n0",
+    "2_取扱説明書_MDA-200.pdf#n1"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-120",
+    "PJ-2025-018",
+    "MAN-MDA-200",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#n0",
+    "2_取扱説明書_MDC-500.pdf#n0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n1",
+    "2_取扱説明書_MDC-500.pdf#n1",
+    "2_取扱説明書_MDB-300.pdf#n1"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-MDC-500",
+    "MAN-COM-01",
+    "MAN-MDC-500",
+    "MAN-MDB-300"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "4_不具合DB_export.csv#n0",
+    "4_不具合DB_export.csv#n13"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "PJ-2025-018",
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "PJ-2025-018",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "4_不具合DB_export.csv#n37",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n50",
+    "4_不具合DB_export.csv#n19"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "4_不具合DB_export.csv#n0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#n0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "不具合DB",
+    "QP-07"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "4_不具合DB_export.csv#n12",
+    "4_不具合DB_export.csv#n13",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1",
+    "4_不具合DB_export.csv#n34"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "不具合DB",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "5_品質保証規程_QP-07_FMEA手順.docx#n0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "QP-07"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "4_不具合DB_export.csv#n12",
+    "4_不具合DB_export.csv#n34",
+    "4_不具合DB_export.csv#n44",
+    "4_不具合DB_export.csv#n20"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n1"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "PJ-2025-018",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "6_特許_特開2024-087654_放熱.pdf#n0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "特開2025-012345",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2024-087654",
+    "特開2025-012345",
+    "特開2025-012345",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2025-012345",
+    "FMEA-MDB300-02",
+    "特開2025-012345",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "4_不具合DB_export.csv#n19"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2024-087654",
+    "特開2025-012345",
+    "特開2025-012345",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "2_BOM_MDA-200-B.xlsx#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2025-012345",
+    "FMEA-MDB300-02",
+    "2_BOM_MDA-200-B.xlsx",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n2"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "SK-001",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n3",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n5",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n5"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n18",
+    "4_不具合DB_export.csv#n36",
+    "4_不具合DB_export.csv#n6",
+    "4_不具合DB_export.csv#n59",
+    "4_不具合DB_export.csv#n44"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n7",
+    "4_不具合DB_export.csv#n49",
+    "4_不具合DB_export.csv#n46",
+    "4_不具合DB_export.csv#n21",
+    "4_不具合DB_export.csv#n22"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n7",
+    "4_不具合DB_export.csv#n49",
+    "4_不具合DB_export.csv#n28",
+    "4_不具合DB_export.csv#n47",
+    "4_不具合DB_export.csv#n8"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n3",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n3"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    true,
+    false
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#n0",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n21",
+    "4_不具合DB_export.csv#n7",
+    "4_不具合DB_export.csv#n40"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "4_不具合DB_export.csv#n12",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n2",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "特開2025-012345",
+    "特開2025-012345",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n7",
+    "4_不具合DB_export.csv#n2",
+    "4_不具合DB_export.csv#n41",
+    "4_不具合DB_export.csv#n1",
+    "4_不具合DB_export.csv#n57"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDB-310.pdf#n2",
+    "2_取扱説明書_MDC-500.pdf#n2",
+    "4_不具合DB_export.csv#n34",
+    "4_不具合DB_export.csv#n32",
+    "2_取扱説明書_MDA-120.pdf#n2"
+   ],
+   "docs": [
+    "MAN-MDB-310",
+    "MAN-MDC-500",
+    "不具合DB",
+    "不具合DB",
+    "MAN-MDA-120"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n16",
+    "4_不具合DB_export.csv#n5",
+    "4_不具合DB_export.csv#n42",
+    "4_不具合DB_export.csv#n13",
+    "4_不具合DB_export.csv#n37"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n3",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n6"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "SK-001",
+    "SK-001",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n2",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "6_特許_特開2025-012345_コネクタ.pdf#n1",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "SPEC-MDA200-B",
+    "SK-001",
+    "特開2025-012345",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n2",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#n0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1"
+   ],
+   "docs": [
+    "QP-07",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n0",
+    "2_取扱説明書_MDC-500.pdf#n0",
+    "2_取扱説明書_MDA-200.pdf#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SK-001",
+    "MAN-MDC-500",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_BOM_MDA-200-B.xlsx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_BOM_MDA-200-B.xlsx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "2_BOM_MDA-200-B.xlsx",
+    "PJ-2025-018",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0",
+    "2_取扱説明書_MDA-200.pdf#n0",
+    "2_取扱説明書_MDA-120.pdf#n0",
+    "2_BOM_MDA-200-B.xlsx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "MAN-MDA-200",
+    "MAN-MDA-120",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "6_顧客要求仕様書_CR-2025-07.docx#n0",
+    "6_サービスニュース_SN-2025-03.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n30"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "CR-2025-07",
+    "SN-2025-03",
+    "PJ-2025-018",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#n0",
+    "4_不具合DB_export.csv#n12",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#n1",
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "5_設計基準_SK-001_コネクタ.docx#n1",
+    "6_特許_特開2025-012345_コネクタ.pdf#n0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "SK-001",
+    "特開2025-012345",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#n0",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#n2",
+    "2_取扱説明書_MDA-200.pdf#n1",
+    "2_設計仕様書_SPEC-MDA200-B.docx#n0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-MDA-200",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#n1",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n1",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#n5",
+    "5_設計基準_SK-001_コネクタ.docx#n1"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#n13",
+    "1_製品企画書_PJ-2025-018.docx#n1",
+    "4_不具合DB_export.csv#n16",
+    "4_不具合DB_export.csv#n38",
+    "6_サービスニュース_SN-2025-03.docx#n0"
+   ],
+   "docs": [
+    "不具合DB",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB",
+    "SN-2025-03"
+   ]
+  }
+ ],
+ "C2 構造化取込（Dense）": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false,
+    false
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s303.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s11.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "4_不具合DB_export.csv#s84.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "MAN-COM-01",
+    "MAN-CAN-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "4_不具合DB_export.csv#s95.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "4_不具合DB_export.csv#s118.0"
+   ],
+   "docs": [
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "不具合DB",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "2_取扱説明書_MDC-500.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s1.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "4_不具合DB_export.csv#s303.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "SPEC-MDA200-B",
+    "MAN-COM-01",
+    "SPEC-MDA200-B",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDC-500.pdf#s12.0",
+    "2_取扱説明書_MDA-120.pdf#s13.0",
+    "2_取扱説明書_MDA-200.pdf#s13.0",
+    "2_取扱説明書_MDB-300.pdf#s13.0",
+    "2_取扱説明書_MDB-310.pdf#s13.0"
+   ],
+   "docs": [
+    "MAN-MDC-500",
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "MAN-MDB-300",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s18.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s19.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s17.0",
+    "4_不具合DB_export.csv#s187.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDB-300",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s23.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "MAN-MDB-300",
+    "MAN-MDB-310",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#s3.0",
+    "2_取扱説明書_MDC-500.pdf#s12.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s1.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s21.0"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-MDC-500",
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "4_不具合DB_export.csv#s46.0",
+    "4_不具合DB_export.csv#s78.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s9.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s7.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s22.0",
+    "4_不具合DB_export.csv#s232.0",
+    "4_不具合DB_export.csv#s159.0",
+    "4_不具合DB_export.csv#s95.0",
+    "4_不具合DB_export.csv#s187.0"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s2.0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "4_不具合DB_export.csv#s32.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#s6.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s27.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0"
+   ],
+   "docs": [
+    "QP-07",
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "FMEA-MDB300-02",
+    "DRBFM-MDB310-01"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "4_不具合DB_export.csv#s70.0",
+    "4_不具合DB_export.csv#s356.0",
+    "4_不具合DB_export.csv#s296.0",
+    "4_不具合DB_export.csv#s33.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "2_BOM_MDA-200-B.xlsx#s0.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s4.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s0.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "SPEC-MDA200-B",
+    "2_BOM_MDA-200-B.xlsx",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s334.0",
+    "4_不具合DB_export.csv#s165.0",
+    "4_不具合DB_export.csv#s100.0",
+    "4_不具合DB_export.csv#s97.0",
+    "4_不具合DB_export.csv#s277.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0",
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "2_BOM_MDA-200-B.xlsx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s4.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2024-087654",
+    "SPEC-MDA200-B",
+    "2_BOM_MDA-200-B.xlsx",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s0.0",
+    "4_不具合DB_export.csv#s323.0",
+    "1_製品企画書_PJ-2025-018.docx#s5.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2025-012345",
+    "TR-2024-033",
+    "不具合DB",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0",
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s0.0",
+    "2_取扱説明書_MDB-310.pdf#s0.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s0.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2024-087654",
+    "TR-2024-033",
+    "MAN-MDB-310",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s26.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s25.0",
+    "2_BOM_MDA-200-B.xlsx#s5.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "2_BOM_MDA-200-B.xlsx",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s4.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "CR-2025-07",
+    "特開2025-012345",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2024-033",
+    "TR-2023-118",
+    "TR-2024-033",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s269.0",
+    "4_不具合DB_export.csv#s312.0",
+    "4_不具合DB_export.csv#s37.0",
+    "4_不具合DB_export.csv#s10.0",
+    "4_不具合DB_export.csv#s50.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s311.0",
+    "4_不具合DB_export.csv#s389.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合DB_export.csv#s310.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s3.0",
+    "4_不具合DB_export.csv#s311.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0",
+    "2_取扱説明書_MDB-310.pdf#s7.0"
+   ],
+   "docs": [
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s12.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s2.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "TR-2023-118",
+    "TR-2023-118",
+    "SK-001",
+    "CR-2025-07"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.3333333333333333,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    false
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s193.0",
+    "4_不具合DB_export.csv#s239.0",
+    "4_不具合DB_export.csv#s143.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0",
+    "4_不具合DB_export.csv#s79.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s2.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "SK-001",
+    "不具合DB",
+    "DRBFM-MDB310-01",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s11.0",
+    "4_不具合DB_export.csv#s190.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s3.0",
+    "4_不具合DB_export.csv#s174.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s78.0",
+    "4_不具合DB_export.csv#s32.0",
+    "4_不具合DB_export.csv#s85.0",
+    "4_不具合DB_export.csv#s93.0",
+    "4_不具合DB_export.csv#s386.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s170.0",
+    "4_不具合DB_export.csv#s177.0",
+    "4_不具合DB_export.csv#s36.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0",
+    "5_設計基準_SK-001_コネクタ.docx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "CR-2025-07",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s17.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s6.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s9.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "TR-2023-118",
+    "TR-2024-033",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "5_設計基準_SK-001_コネクタ.docx#s8.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "8D-2024-021",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s14.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s5.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "特開2025-012345",
+    "CR-2025-07",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s1.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s1.0",
+    "4_不具合DB_export.csv#s303.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "MAN-MDA-200",
+    "SPEC-MDA200-B",
+    "不具合DB",
+    "SN-2025-03"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s2.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "CR-2025-07"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s303.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "不具合DB",
+    "SN-2025-03",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s303.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s249.0",
+    "4_不具合DB_export.csv#s84.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "不具合DB",
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s2.0"
+   ],
+   "docs": [
+    "SK-001",
+    "8D-2024-021",
+    "PJ-2025-018",
+    "SPEC-MDA200-B",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s303.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s1.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s52.0",
+    "4_不具合DB_export.csv#s307.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  }
+ ],
+ "C3 ＋ハイブリッド（BM25+Dense, RRF）": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    true,
+    false
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s11.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s20.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-CAN-01",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "2_取扱説明書_MDA-120.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "MAN-COM-01",
+    "MAN-MDA-200",
+    "MAN-MDA-120"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "2_取扱説明書_MDC-500.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "MAN-COM-01",
+    "SPEC-MDA200-B",
+    "MAN-COM-01",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s13.0",
+    "2_取扱説明書_MDA-200.pdf#s13.0",
+    "2_取扱説明書_MDB-300.pdf#s13.0",
+    "2_取扱説明書_MDB-310.pdf#s13.0",
+    "2_取扱説明書_MDC-500.pdf#s13.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "MAN-MDB-300",
+    "MAN-MDB-310",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s18.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s17.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s19.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s16.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-300.pdf#s12.0",
+    "2_取扱説明書_MDC-500.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-MDA-200",
+    "MAN-MDB-310",
+    "MAN-MDB-300",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#s3.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s1.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s20.0"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "MAN-COM-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s3.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "8D-2024-021",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s232.0",
+    "4_不具合DB_export.csv#s159.0",
+    "4_不具合DB_export.csv#s59.0",
+    "4_不具合DB_export.csv#s187.0",
+    "4_不具合DB_export.csv#s95.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s3.0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "4_不具合DB_export.csv#s79.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s6.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s5.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "QP-07",
+    "DRBFM-MDB310-01",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "4_不具合DB_export.csv#s70.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "2_BOM_MDA-200-B.xlsx#s0.0",
+    "2_BOM_MDA-200-B.xlsx#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s4.0",
+    "2_BOM_MDA-200-B.xlsx#s5.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s165.0",
+    "4_不具合DB_export.csv#s45.0",
+    "4_不具合DB_export.csv#s171.0",
+    "4_不具合DB_export.csv#s303.0",
+    "4_不具合DB_export.csv#s97.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "2_BOM_MDA-200-B.xlsx#s6.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "SPEC-MDA200-B",
+    "特開2024-087654",
+    "2_BOM_MDA-200-B.xlsx",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0",
+    "6_特許_特開2024-087654_放熱.pdf#s3.0",
+    "4_不具合DB_export.csv#s28.0",
+    "4_不具合DB_export.csv#s389.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2025-012345",
+    "特開2024-087654",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0",
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "2_BOM_MDA-200-B.xlsx#s6.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s4.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2024-087654",
+    "2_BOM_MDA-200-B.xlsx",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s6.0",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#s3.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s26.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "2_BOM_MDA-200-B.xlsx",
+    "特開2024-087654",
+    "特開2024-087654",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s1.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s4.0",
+    "5_設計基準_SK-001_コネクタ.docx#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s8.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s115.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_不具合DB_export.csv#s312.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s0.0",
+    "4_不具合DB_export.csv#s7.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "TR-2023-118",
+    "不具合DB",
+    "TR-2024-033",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s3.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s3.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s89.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "8D-2024-021",
+    "不具合DB",
+    "8D-2024-021",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0",
+    "2_取扱説明書_MDB-310.pdf#s7.0"
+   ],
+   "docs": [
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s2.0",
+    "5_設計基準_SK-001_コネクタ.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "TR-2023-118",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    true,
+    false
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s239.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "8D-2024-021",
+    "PJ-2025-018",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s79.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s2.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "特開2025-012345",
+    "DRBFM-MDB310-01",
+    "特開2025-012345",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s272.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "PJ-2025-018",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s32.0",
+    "4_不具合DB_export.csv#s78.0",
+    "4_不具合DB_export.csv#s248.0",
+    "4_不具合DB_export.csv#s199.0",
+    "4_不具合DB_export.csv#s85.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s36.0",
+    "4_不具合DB_export.csv#s170.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合DB_export.csv#s266.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "8D-2024-021",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "5_設計基準_SK-001_コネクタ.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s0.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s17.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s6.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s9.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "TR-2023-118",
+    "TR-2024-033",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0",
+    "2_BOM_MDA-200-B.xlsx#s2.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "特開2025-012345",
+    "8D-2024-021",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "8D-2024-021",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s25.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s9.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s11.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s4.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s8.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s1.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s2.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "CR-2025-07"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.3333333333333333,
+   "ok": false,
+   "hit": [
+    false,
+    true,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "FMEA-MDA120-03",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s249.0",
+    "4_不具合DB_export.csv#s222.0",
+    "4_不具合DB_export.csv#s55.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "SN-2025-03"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s2.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "8D-2024-021",
+    "PJ-2025-018",
+    "特開2025-012345",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s15.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "FMEA-MDA120-03",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "SK-001",
+    "PJ-2025-018",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s52.0",
+    "4_不具合DB_export.csv#s399.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  }
+ ],
+ "C4 ＋文脈付与・型式正規化": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_取扱説明書_MDA-200.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s11.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDA-200",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_取扱説明書_MDB-310.pdf#s8.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-310.pdf#s13.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-MDB-310",
+    "MAN-MDB-310",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s7.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "4_不具合DB_export.csv#s50.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-COM-01",
+    "MAN-MDA-200",
+    "FMEA-MDA120-03",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "SN-2025-03",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDC-500.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "2_取扱説明書_MDC-500.pdf#s12.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s18.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s21.0"
+   ],
+   "docs": [
+    "MAN-MDC-500",
+    "MAN-COM-01",
+    "MAN-MDC-500",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s18.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s17.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s19.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s6.0",
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_取扱説明書_MDA-120.pdf#s8.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s7.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDA-120",
+    "MAN-MDA-120",
+    "MAN-COM-01",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#s3.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s1.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "1_製品企画書_PJ-2025-018.docx#s10.0",
+    "2_取扱説明書_MDC-500.pdf#s8.0"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "PJ-2025-018",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s3.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s9.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s7.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s22.0",
+    "4_不具合DB_export.csv#s159.0",
+    "4_不具合DB_export.csv#s188.0",
+    "4_不具合DB_export.csv#s59.0",
+    "4_不具合DB_export.csv#s187.0"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s1.0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "4_不具合DB_export.csv#s79.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s6.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "QP-07",
+    "DRBFM-MDB310-01",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "4_不具合DB_export.csv#s70.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "2_BOM_MDA-200-B.xlsx#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s4.0",
+    "2_BOM_MDA-200-B.xlsx#s0.0",
+    "2_BOM_MDA-200-B.xlsx#s5.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s165.0",
+    "4_不具合DB_export.csv#s45.0",
+    "4_不具合DB_export.csv#s171.0",
+    "4_不具合DB_export.csv#s273.0",
+    "4_不具合DB_export.csv#s303.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false,
+    false
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s6.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s4.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#s2.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2024-087654_放熱.pdf#s3.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s5.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2025-012345",
+    "特開2024-087654",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s6.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s4.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s0.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s1.0",
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#s3.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s8.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合DB_export.csv#s48.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合DB_export.csv#s170.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s0.0"
+   ],
+   "docs": [
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "TR-2024-033",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s83.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s9.0",
+    "4_不具合DB_export.csv#s239.0",
+    "4_不具合DB_export.csv#s384.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s79.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "特開2025-012345",
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s272.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s32.0",
+    "4_不具合DB_export.csv#s248.0",
+    "4_不具合DB_export.csv#s85.0",
+    "4_不具合DB_export.csv#s13.0",
+    "4_不具合DB_export.csv#s199.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s170.0",
+    "4_不具合DB_export.csv#s191.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s164.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s0.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s17.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s19.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "TR-2023-118",
+    "SK-001",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "特開2025-012345",
+    "PJ-2025-018",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s14.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#s3.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s4.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0"
+   ],
+   "docs": [
+    "QP-07",
+    "QP-07",
+    "QP-07",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s4.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s6.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s8.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s15.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_取扱説明書_MDA-200.pdf#s5.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    false,
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "4_不具合DB_export.csv#s222.0",
+    "4_不具合DB_export.csv#s83.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s0.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "8D-2024-021",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_取扱説明書_MDA-200.pdf#s16.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "MAN-MDA-200",
+    "不具合DB",
+    "不具合DB",
+    "8D-2024-021"
+   ]
+  }
+ ],
+ "C5 ＋参照グラフ（符号・付表）": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_取扱説明書_MDA-200.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s11.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDA-200",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_取扱説明書_MDB-310.pdf#s8.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0",
+    "2_取扱説明書_MDB-310.pdf#s13.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-MDB-310",
+    "MAN-MDB-310",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s7.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "4_不具合DB_export.csv#s50.0"
+   ],
+   "docs": [
+    "MAN-MDA-120",
+    "MAN-COM-01",
+    "MAN-MDA-200",
+    "FMEA-MDA120-03",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "SN-2025-03",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_取扱説明書_MDC-500.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "2_取扱説明書_MDC-500.pdf#s12.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s18.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s21.0"
+   ],
+   "docs": [
+    "MAN-MDC-500",
+    "MAN-COM-01",
+    "MAN-MDC-500",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s18.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s17.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s19.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s6.0",
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_取扱説明書_MDA-120.pdf#s8.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s7.0",
+    "2_取扱説明書_MDA-200.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-MDA-120",
+    "MAN-MDA-120",
+    "MAN-COM-01",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#s3.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s1.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "1_製品企画書_PJ-2025-018.docx#s10.0",
+    "2_取扱説明書_MDC-500.pdf#s8.0"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "PJ-2025-018",
+    "MAN-MDC-500"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s3.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s9.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s22.0",
+    "4_不具合DB_export.csv#s159.0",
+    "4_不具合DB_export.csv#s188.0",
+    "4_不具合DB_export.csv#s59.0",
+    "4_不具合DB_export.csv#s187.0"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s1.0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "4_不具合DB_export.csv#s79.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s6.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "QP-07",
+    "DRBFM-MDB310-01",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "4_不具合DB_export.csv#s70.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "2_BOM_MDA-200-B.xlsx#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s4.0",
+    "2_BOM_MDA-200-B.xlsx#s0.0",
+    "2_BOM_MDA-200-B.xlsx#s5.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num22",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig2",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3",
+    "6_特許_特開2025-012345_コネクタ.pdf#num21"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3",
+    "6_特許_特開2025-012345_コネクタ.pdf#num25",
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s6.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#num36",
+    "6_特許_特開2024-087654_放熱.pdf#s2.0",
+    "6_特許_特開2024-087654_放熱.pdf#fig2",
+    "6_特許_特開2024-087654_放熱.pdf#num10"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#s8.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig2",
+    "6_特許_特開2025-012345_コネクタ.pdf#num35",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#s1.0",
+    "6_特許_特開2024-087654_放熱.pdf#fig2",
+    "6_特許_特開2024-087654_放熱.pdf#num23",
+    "6_特許_特開2024-087654_放熱.pdf#s0.0",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num23",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31",
+    "6_特許_特開2025-012345_コネクタ.pdf#num21",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s8.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合DB_export.csv#s48.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合DB_export.csv#s170.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s0.0"
+   ],
+   "docs": [
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "TR-2024-033",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s83.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s9.0",
+    "4_不具合DB_export.csv#s239.0",
+    "4_不具合DB_export.csv#s384.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s79.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "特開2025-012345",
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s272.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "不具合DB",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s32.0",
+    "4_不具合DB_export.csv#s248.0",
+    "4_不具合DB_export.csv#s85.0",
+    "4_不具合DB_export.csv#s13.0",
+    "4_不具合DB_export.csv#s199.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s170.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s164.0",
+    "4_不具合DB_export.csv#s191.0",
+    "4_不具合DB_export.csv#s83.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s0.0",
+    "5_設計基準_SK-001_コネクタ.docx#s9.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s17.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s19.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "TR-2023-118",
+    "SK-001",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num21",
+    "6_特許_特開2025-012345_コネクタ.pdf#num22",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s14.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#s3.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s4.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s27.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0"
+   ],
+   "docs": [
+    "QP-07",
+    "QP-07",
+    "QP-07",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s4.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s6.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s8.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s15.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_取扱説明書_MDA-200.pdf#s5.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "MAN-MDA-200"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    false,
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "4_不具合DB_export.csv#s222.0",
+    "4_不具合DB_export.csv#s83.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s0.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "8D-2024-021",
+    "SPEC-MDA200-B",
+    "PJ-2025-018",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_取扱説明書_MDA-200.pdf#s16.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s307.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "MAN-MDA-200",
+    "不具合DB",
+    "不具合DB",
+    "8D-2024-021"
+   ]
+  }
+ ],
+ "C6 ＋再ランキング": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s18.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "PJ-2025-018",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s22.0",
+    "2_取扱説明書_MDB-310.pdf#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-MDB-310"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s7.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s10.0",
+    "4_不具合DB_export.csv#s269.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "FMEA-MDA120-03",
+    "MAN-MDA-120",
+    "MAN-COM-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s22.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "SN-2025-03",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s9.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s3.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s18.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s17.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s8.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s19.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s6.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#s3.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "MAN-COM-01",
+    "FMEA-MDC500-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s9.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s3.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s5.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s23.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s24.0"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s21.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s16.0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "4_不具合DB_export.csv#s79.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s6.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "QP-07"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "4_不具合DB_export.csv#s79.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s5.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "PJ-2025-018",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num22",
+    "6_特許_特開2025-012345_コネクタ.pdf#num34",
+    "6_特許_特開2025-012345_コネクタ.pdf#num21",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig2",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num25",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3",
+    "6_特許_特開2025-012345_コネクタ.pdf#num23",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#num36",
+    "6_特許_特開2024-087654_放熱.pdf#num10",
+    "6_特許_特開2024-087654_放熱.pdf#s3.0",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#num23"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num31",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig2",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#num10",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#fig2",
+    "6_特許_特開2024-087654_放熱.pdf#num23",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#num21",
+    "6_特許_特開2024-087654_放熱.pdf#num36"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num21",
+    "6_特許_特開2025-012345_コネクタ.pdf#num23",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#num10"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s11.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s15.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s4.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s5.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s2.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "8D-2024-021",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s1.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "不具合DB",
+    "8D-2024-021",
+    "8D-2024-021",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s0.0"
+   ],
+   "docs": [
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s12.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "DRBFM-MDB310-01",
+    "TR-2023-118",
+    "SPEC-MDA200-B",
+    "DRBFM-MDB310-01"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.6666666666666666,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0",
+    "2_取扱説明書_MDA-200.pdf#s16.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s9.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "MAN-MDA-200",
+    "PJ-2025-018",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s79.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "4_不具合DB_export.csv#s83.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "DRBFM-MDB310-01",
+    "特開2025-012345",
+    "PJ-2025-018",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s48.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合DB_export.csv#s375.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "PJ-2025-018",
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s216.0",
+    "4_不具合DB_export.csv#s169.0",
+    "4_不具合DB_export.csv#s386.0",
+    "4_不具合DB_export.csv#s85.0",
+    "4_不具合DB_export.csv#s351.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s164.0",
+    "4_不具合DB_export.csv#s36.0",
+    "4_不具合DB_export.csv#s266.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "5_設計基準_SK-001_コネクタ.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s4.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s17.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s19.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "TR-2023-118",
+    "SK-001",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num22",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "FMEA-MDA120-03",
+    "特開2025-012345",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s7.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "SK-001",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#s3.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s2.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s17.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s4.0"
+   ],
+   "docs": [
+    "QP-07",
+    "QP-07",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "QP-07"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s4.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s8.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s6.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s15.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s4.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s20.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "CR-2025-07",
+    "PJ-2025-018",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s222.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合DB_export.csv#s249.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num25",
+    "1_製品企画書_PJ-2025-018.docx#s2.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "DRBFM-MDB310-01",
+    "8D-2024-021",
+    "特開2025-012345",
+    "PJ-2025-018"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s2.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "DRBFM-MDB310-01",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_取扱説明書_MDA-200.pdf#s16.0",
+    "4_不具合DB_export.csv#s83.0",
+    "2_取扱説明書_MDC-500.pdf#s16.0",
+    "2_取扱説明書_MDB-300.pdf#s16.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "MAN-MDA-200",
+    "不具合DB",
+    "MAN-MDC-500",
+    "MAN-MDB-300"
+   ]
+  }
+ ],
+ "C7 ＋参照追跡（別冊・関連文書）": [
+  {
+   "id": "C1-1",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s13.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s4.0",
+    "5_設計基準_SK-001_コネクタ.docx#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "CR-2025-07",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C1-2",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s22.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s2.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-CAN-01"
+   ]
+  },
+  {
+   "id": "C1-3",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s7.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "2_取扱説明書_MDA-120.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s10.0",
+    "4_不具合DB_export.csv#s269.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "FMEA-MDA120-03",
+    "MAN-MDA-120",
+    "MAN-COM-01",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C1-4",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s22.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s2.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "SN-2025-03",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-CAN-01"
+   ]
+  },
+  {
+   "id": "C1-5",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s9.0",
+    "5_設計基準_SK-001_コネクタ.docx#s12.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C1-6",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s18.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s17.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s8.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s19.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C1-7",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s6.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s3.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s8.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s2.0"
+   ],
+   "docs": [
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C1-8",
+   "cat": "C1",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_通信マニュアル_MAN-CAN-01.pdf#s3.0",
+    "2_通信マニュアル_MAN-CAN-01.pdf#s5.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s20.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0"
+   ],
+   "docs": [
+    "MAN-CAN-01",
+    "MAN-CAN-01",
+    "MAN-COM-01",
+    "FMEA-MDC500-01",
+    "MAN-COM-01"
+   ]
+  },
+  {
+   "id": "C2-1",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s1.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s2.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s9.0",
+    "5_設計基準_SK-001_コネクタ.docx#s6.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C2-2",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s6.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s7.0"
+   ],
+   "docs": [
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDA120-03",
+    "FMEA-MDC500-01",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C2-3",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s22.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s23.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s24.0"
+   ],
+   "docs": [
+    "FMEA-MDB300-02",
+    "FMEA-MDC500-01",
+    "FMEA-MDA120-03",
+    "FMEA-MDB300-02",
+    "FMEA-MDB300-02"
+   ]
+  },
+  {
+   "id": "C2-4",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s16.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s17.0",
+    "3_過去FMEA_FMEA-MDC500-01_MDC-500.xlsx#s21.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s12.0"
+   ],
+   "docs": [
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDC500-01",
+    "FMEA-MDB300-02",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C2-5",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C2-6",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s13.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C2-7",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s3.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "5_設計基準_SK-001_コネクタ.docx#s18.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31"
+   ],
+   "docs": [
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C2-8",
+   "cat": "C2",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_BOM_MDA-200-B.xlsx#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s2.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "2_BOM_MDA-200-B.xlsx#s5.0"
+   ],
+   "docs": [
+    "2_BOM_MDA-200-B.xlsx",
+    "PJ-2025-018",
+    "DRBFM-MDB310-01",
+    "DRBFM-MDB310-01",
+    "2_BOM_MDA-200-B.xlsx"
+   ]
+  },
+  {
+   "id": "C3-1",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num22",
+    "6_特許_特開2025-012345_コネクタ.pdf#num34",
+    "6_特許_特開2025-012345_コネクタ.pdf#num21",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig2",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-2",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num25",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3",
+    "6_特許_特開2025-012345_コネクタ.pdf#num23",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-3",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#num36",
+    "6_特許_特開2024-087654_放熱.pdf#num10",
+    "6_特許_特開2024-087654_放熱.pdf#s3.0",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#num23"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-4",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num31",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig2",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#num10",
+    "6_特許_特開2025-012345_コネクタ.pdf#fig3"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C3-5",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "6_特許_特開2024-087654_放熱.pdf#fig2",
+    "6_特許_特開2024-087654_放熱.pdf#num23",
+    "6_特許_特開2024-087654_放熱.pdf#s4.0",
+    "6_特許_特開2024-087654_放熱.pdf#num21",
+    "6_特許_特開2024-087654_放熱.pdf#num36"
+   ],
+   "docs": [
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654",
+    "特開2024-087654"
+   ]
+  },
+  {
+   "id": "C3-6",
+   "cat": "C3",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_特許_特開2025-012345_コネクタ.pdf#num21",
+    "6_特許_特開2025-012345_コネクタ.pdf#num23",
+    "6_特許_特開2025-012345_コネクタ.pdf#num31",
+    "6_特許_特開2025-012345_コネクタ.pdf#num30",
+    "6_特許_特開2025-012345_コネクタ.pdf#num10"
+   ],
+   "docs": [
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C4-1",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s7.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s13.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s11.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s15.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-2",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s12.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s16.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s4.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s5.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s2.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118",
+    "TR-2023-118"
+   ]
+  },
+  {
+   "id": "C4-3",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s5.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB",
+    "8D-2024-021",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C4-4",
+   "cat": "C4",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合DB_export.csv#s48.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s1.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s4.0"
+   ],
+   "docs": [
+    "8D-2024-021",
+    "不具合DB",
+    "8D-2024-021",
+    "8D-2024-021",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C4-5",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s3.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s2.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s1.0",
+    "4_試験報告書_TR-2024-033（スキャン）.pdf#s4.0",
+    "5_設計基準_SK-001_コネクタ.docx#s11.0"
+   ],
+   "docs": [
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "TR-2024-033",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C4-6",
+   "cat": "C4",
+   "score": 0.0,
+   "ok": false,
+   "hit": [
+    false
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s12.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s1.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num34"
+   ],
+   "docs": [
+    "SK-001",
+    "DRBFM-MDB310-01",
+    "TR-2023-118",
+    "SPEC-MDA200-B",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C5-1",
+   "cat": "C5",
+   "score": 0.3333333333333333,
+   "ok": false,
+   "hit": [
+    true,
+    false,
+    false
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0",
+    "2_取扱説明書_MDA-200.pdf#s16.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s9.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s1.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "MAN-MDA-200",
+    "MAN-COM-01",
+    "CR-2025-07"
+   ]
+  },
+  {
+   "id": "C5-2",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s79.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "DRBFM-MDB310-01",
+    "特開2025-012345",
+    "PJ-2025-018",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C5-3",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s48.0",
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s2.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "4_不具合DB_export.csv#s375.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "PJ-2025-018",
+    "8D-2024-021",
+    "8D-2024-021",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-4",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "4_不具合DB_export.csv#s216.0",
+    "4_不具合DB_export.csv#s169.0",
+    "4_不具合DB_export.csv#s386.0",
+    "4_不具合DB_export.csv#s85.0",
+    "4_不具合DB_export.csv#s351.0"
+   ],
+   "docs": [
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C5-5",
+   "cat": "C5",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "4_不具合DB_export.csv#s83.0",
+    "4_不具合DB_export.csv#s164.0",
+    "4_不具合DB_export.csv#s36.0",
+    "4_不具合DB_export.csv#s266.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB",
+    "不具合DB"
+   ]
+  },
+  {
+   "id": "C6-1",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "5_設計基準_SK-001_コネクタ.docx#s15.0",
+    "5_設計基準_SK-001_コネクタ.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s4.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "SK-001",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C6-2",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s6.0",
+    "5_設計基準_SK-001_コネクタ.docx#s17.0",
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s3.0",
+    "5_設計基準_SK-001_コネクタ.docx#s19.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s0.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "TR-2023-118",
+    "SK-001",
+    "FMEA-MDA120-03"
+   ]
+  },
+  {
+   "id": "C6-3",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num22",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s6.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SPEC-MDA200-B",
+    "FMEA-MDA120-03",
+    "特開2025-012345",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C6-4",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_設計基準_SK-001_コネクタ.docx#s10.0",
+    "5_設計基準_SK-001_コネクタ.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "5_設計基準_SK-001_コネクタ.docx#s3.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s7.0"
+   ],
+   "docs": [
+    "SK-001",
+    "SK-001",
+    "SPEC-MDA200-B",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C6-5",
+   "cat": "C6",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "5_品質保証規程_QP-07_FMEA手順.docx#s3.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s2.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s7.0",
+    "3_過去FMEA_FMEA-MDA120-03_MDA-120.xlsx#s17.0",
+    "5_品質保証規程_QP-07_FMEA手順.docx#s4.0"
+   ],
+   "docs": [
+    "QP-07",
+    "QP-07",
+    "FMEA-MDB300-02",
+    "FMEA-MDA120-03",
+    "QP-07"
+   ]
+  },
+  {
+   "id": "C7-1",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-2",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s4.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s3.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-3",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s8.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s9.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s7.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s6.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s15.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C7-4",
+   "cat": "C7",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s12.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s13.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s14.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s11.0",
+    "2_設計仕様書_SPEC-MDA200-B.docx#s10.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B",
+    "SPEC-MDA200-B"
+   ]
+  },
+  {
+   "id": "C8-1",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s4.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "5_設計基準_SK-001_コネクタ.docx#s0.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "CR-2025-07",
+    "PJ-2025-018",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C8-2",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    true,
+    false
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s2.0",
+    "1_製品企画書_PJ-2025-018.docx#s1.0",
+    "4_不具合DB_export.csv#s222.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s1.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "不具合DB",
+    "CR-2025-07",
+    "8D-2024-021"
+   ]
+  },
+  {
+   "id": "C8-3",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "2_設計仕様書_SPEC-MDA200-B.docx#s16.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "4_不具合報告書_8D-2024-021（スキャン）.pdf#s7.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#num25",
+    "5_設計基準_SK-001_コネクタ.docx#s10.0"
+   ],
+   "docs": [
+    "SPEC-MDA200-B",
+    "DRBFM-MDB310-01",
+    "8D-2024-021",
+    "特開2025-012345",
+    "SK-001"
+   ]
+  },
+  {
+   "id": "C8-4",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "1_製品企画書_PJ-2025-018.docx#s3.0",
+    "1_製品企画書_PJ-2025-018.docx#s4.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s14.0",
+    "6_顧客要求仕様書_CR-2025-07.docx#s1.0"
+   ],
+   "docs": [
+    "PJ-2025-018",
+    "PJ-2025-018",
+    "MAN-COM-01",
+    "MAN-COM-01",
+    "CR-2025-07"
+   ]
+  },
+  {
+   "id": "C8-5",
+   "cat": "C8",
+   "score": 0.5,
+   "ok": false,
+   "hit": [
+    false,
+    true
+   ],
+   "ids": [
+    "4_試験報告書_TR-2023-118（スキャン）.pdf#s1.0",
+    "3_過去DRBFM_DRBFM-MDB310-01.xlsx#s0.0",
+    "3_過去FMEA_FMEA-MDB300-02_MDB-300.xlsx#s2.0",
+    "5_設計基準_SK-001_コネクタ.docx#s5.0",
+    "6_特許_特開2025-012345_コネクタ.pdf#s3.0"
+   ],
+   "docs": [
+    "TR-2023-118",
+    "DRBFM-MDB310-01",
+    "FMEA-MDB300-02",
+    "SK-001",
+    "特開2025-012345"
+   ]
+  },
+  {
+   "id": "C8-6",
+   "cat": "C8",
+   "score": 1.0,
+   "ok": true,
+   "hit": [
+    true,
+    true
+   ],
+   "ids": [
+    "6_サービスニュース_SN-2025-03.docx#s1.0",
+    "2_取扱説明書_MDA-200.pdf#s16.0",
+    "4_不具合DB_export.csv#s83.0",
+    "2_取扱説明書_MDC-500.pdf#s16.0",
+    "2_通信マニュアル共通編_MAN-COM-01.pdf#s12.0"
+   ],
+   "docs": [
+    "SN-2025-03",
+    "MAN-MDA-200",
+    "不具合DB",
+    "MAN-MDC-500",
+    "MAN-COM-01"
+   ]
+  }
+ ]
+}
